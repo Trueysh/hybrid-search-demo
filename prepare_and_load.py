@@ -1,1 +1,127 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uCiMgLSotIGNvZGluZzogdXRmLTggLSotCiIiIgrlh4blpIfmlbDmja7lubbngYzlhaUgRWxhc3RpY3NlYXJjaOOAggoK5bel56iL6ZmN57qn6K+05piO77yaCiAg5a655Zmo5YaF5pyq6KOFIElLIOS4reaWh+WIhuivjeaPkuS7tuaXtu+8jEJNMjUg5Lit5paH5Y+s5Zue5Lya5aSx5pWI44CCCiAg5Zug5q2k6L+Z6YeM6YeH55So44CMUHl0aG9uIOS+pyBqaWViYSDpooTliIbor40gKyDlj4zlrZfmrrXntKLlvJXjgI3mlrnmoYjvvJoKICAgIC0gdGl0bGUgICAgICAgIDog5Y6f5paH5qCH6aKYCiAgICAtIHRleHQgICAgICAgICA6IOWOn+aWh+ato+aWh++8iHN0YW5kYXJkIOWIhuivje+8iQogICAgLSB0ZXh0X3N0YW5kYXJkOiBqaWViYSDliIbor43lkI7nlKjnqbrmoLzov57mjqXnmoTlrZfnrKbkuLLvvIjkv53or4EgQk0yNSDog73lkb3kuK3kuK3mlofor43vvIkKICDov5nmmK/lt6XnqIvkuIrjgIzlhYjkv53or4Hot5Hlr7nvvIzlho3kvJjljJblrp7njrDjgI3nmoTlhbjlnovlgZrms5XvvJrkuI3kvp3otZbkuK3mlofliIbor43mj5Lku7bvvIwKICDnlKjlj4zlrZfmrrXntKLlvJXorqkgQk0yNSDlnKjkuK3mlofkuIrnqLPlrprlt6XkvZzjgIIKIiIiCgppbXBvcnQganNvbgppbXBvcnQgb3MKaW1wb3J0IHN5cwppbXBvcnQgdGltZQoKaW1wb3J0IGppZWJhCmltcG9ydCByZXF1ZXN0cwoKRVNfVVJMID0gb3MuZW52aXJvbi5nZXQoIkVTX1VSTCIsICJodHRwOi8vbG9jYWxob3N0OjkyMDAiKQpJTkRFWCA9ICJtZWRpY2FsX2RvY3MiCkNPUlBVU19GSUxFID0gb3MucGF0aC5qb2luKG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmFic3BhdGgoX19maWxlX18pKSwgIm1lZGljYWxfY29ycHVzLmpzb24iKQoKTUFQUElORyA9IHsKICAgICJtYXBwaW5ncyI6IHsKICAgICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAgICAgImRvY19pZCI6IHsidHlwZSI6ICJrZXl3b3JkIn0sCiAgICAgICAgICAgICJ0aXRsZSI6IHsidHlwZSI6ICJ0ZXh0IiwgImFuYWx5emVyIjogInN0YW5kYXJkIn0sCiAgICAgICAgICAgICJ0ZXh0IjogeyJ0eXBlIjogInRleHQiLCAiYW5hbHl6ZXIiOiAic3RhbmRhcmQifSwKICAgICAgICAgICAgInRleHRfc3RhbmRhcmQiOiB7InR5cGUiOiAidGV4dCIsICJhbmFseXplciI6ICJzdGFuZGFyZCJ9LAogICAgICAgICAgICAia2V5d29yZHMiOiB7InR5cGUiOiAia2V5d29yZCJ9LAogICAgICAgICAgICAicmF3X3RleHQiOiB7InR5cGUiOiAidGV4dCIsICJpbmRleCI6IEZhbHNlfSwKICAgICAgICB9CiAgICB9LAogICAgInNldHRpbmdzIjogeyJudW1iZXJfb2Zfc2hhcmRzIjogMSwgIm51bWJlcl9vZl9yZXBsaWNhcyI6IDB9LAp9CgoKZGVmIHdhaXRfZm9yX2VzKG1heF93YWl0PTE4MCk6CiAgICBwcmludCgiWypdIOetieW+hSBFbGFzdGljc2VhcmNoIOWwsee7qiAuLi4iKQogICAgc3RhcnQgPSB0aW1lLnRpbWUoKQogICAgd2hpbGUgdGltZS50aW1lKCkgLSBzdGFydCA8IG1heF93YWl0OgogICAgICAgIHRyeToKICAgICAgICAgICAgciA9IHJlcXVlc3RzLmdldChFU19VUkwsIHRpbWVvdXQ9NSkKICAgICAgICAgICAgaWYgci5zdGF0dXNfY29kZSA9PSAyMDA6CiAgICAgICAgICAgICAgICBpbmZvID0gci5qc29uKCkKICAgICAgICAgICAgICAgIHByaW50KGYiWytdIEVTIOWwsee7qiAgdmVyc2lvbj17aW5mby5nZXQoJ3ZlcnNpb24nLCB7fSkuZ2V0KCdudW1iZXInKX0iKQogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBwYXNzCiAgICAgICAgdGltZS5zbGVlcCgzKQogICAgcHJpbnQoIlstXSBFUyDmnKrlnKjotoXml7blhoXlsLHnu6rvvIzor7fnoa7orqQgZG9ja2VyIGNvbXBvc2UgdXAgLWQg5bey5ZCv5YqoIikKICAgIHJldHVybiBGYWxzZQoKCmRlZiBsb2FkX2NvcnB1cygpOgogICAgd2l0aCBvcGVuKENPUlBVU19GSUxFLCAiciIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgcmV0dXJuIGpzb24ubG9hZChmKQoKCmRlZiBidWlsZF9kb2NzKGNvcnB1cyk6CiAgICBkb2NzID0gW10KICAgIGZvciBkIGluIGNvcnB1c1siZG9jcyJdOgogICAgICAgIHNlZyA9ICIgIi5qb2luKGppZWJhLmxjdXQoZFsidGl0bGUiXSArICIgIiArIGRbInRleHQiXSkpCiAgICAgICAgZG9jcy5hcHBlbmQoewogICAgICAgICAgICAiZG9jX2lkIjogZFsiaWQiXSwKICAgICAgICAgICAgInRpdGxlIjogZFsidGl0bGUiXSwKICAgICAgICAgICAgInRleHQiOiBkWyJ0ZXh0Il0sCiAgICAgICAgICAgICJ0ZXh0X3N0YW5kYXJkIjogc2VnLAogICAgICAgICAgICAia2V5d29yZHMiOiBkLmdldCgia2V5d29yZHMiLCBbXSksCiAgICAgICAgICAgICJyYXdfdGV4dCI6IGRbInRpdGxlIl0gKyAi44CCICIgKyBkWyJ0ZXh0Il0sCiAgICAgICAgfSkKICAgIHJldHVybiBkb2NzCgoKZGVmIG1haW4oKToKICAgIGlmIG5vdCB3YWl0X2Zvcl9lcygpOgogICAgICAgIHN5cy5leGl0KDEpCgogICAgY29ycHVzID0gbG9hZF9jb3JwdXMoKQogICAgZG9jcyA9IGJ1aWxkX2RvY3MoY29ycHVzKQoKICAgICMg5Yig5pen57Si5byV6YeN5bu677yM5L+d6K+B5Y+v6YeN5aSN5omn6KGMCiAgICByZXF1ZXN0cy5kZWxldGUoZiJ7RVNfVVJMfS97SU5ERVh9IikKCiAgICByID0gcmVxdWVzdHMucHV0KGYie0VTX1VSTH0ve0lOREVYfSIsIGpzb249TUFQUElORykKICAgIGlmIHIuc3RhdHVzX2NvZGUgbm90IGluICgyMDAsIDIwMSk6CiAgICAgICAgcHJpbnQoIlstXSDliJvlu7rntKLlvJXlpLHotKU6Iiwgci5zdGF0dXNfY29kZSwgci50ZXh0Wzo1MDBdKQogICAgICAgIHN5cy5leGl0KDEpCiAgICBwcmludChmIlsrXSDntKLlvJUge0lOREVYfSDliJvlu7rmiJDlip8iKQoKICAgICMg5om56YeP5YaZ5YWlCiAgICBib2R5X2xpbmVzID0gW10KICAgIGZvciBkIGluIGRvY3M6CiAgICAgICAgYm9keV9saW5lcy5hcHBlbmQoanNvbi5kdW1wcyh7ImluZGV4IjogeyJfaW5kZXgiOiBJTkRFWCwgIl9pZCI6IGRbImRvY19pZCJdfX0pKQogICAgICAgIGJvZHlfbGluZXMuYXBwZW5kKGpzb24uZHVtcHMoZCwgZW5zdXJlX2FzY2lpPUZhbHNlKSkKCiAgICBwYXlsb2FkID0gIlxuIi5qb2luKGJvZHlfbGluZXMpICsgIlxuIgogICAgciA9IHJlcXVlc3RzLnBvc3QoCiAgICAgICAgZiJ7RVNfVVJMfS9fYnVsayIsCiAgICAgICAgZGF0YT1wYXlsb2FkLmVuY29kZSgidXRmLTgiKSwKICAgICAgICBoZWFkZXJzPXsiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL3gtbmRqc29uIn0sCiAgICApCiAgICByZXMgPSByLmpzb24oKQogICAgaWYgcmVzLmdldCgiZXJyb3JzIik6CiAgICAgICAgcHJpbnQoIlstXSDmibnph4/lhpnlhaXmnInplJnor686IiwganNvbi5kdW1wcyhyZXMsIGVuc3VyZV9hc2NpaT1GYWxzZSlbOjYwMF0pCiAgICAgICAgc3lzLmV4aXQoMSkKICAgIHByaW50KGYiWytdIOW3suWGmeWFpSB7bGVuKGRvY3MpfSDmnaHmlofmoaMiKQoKICAgICMg5Yi35paw57Si5byV5L2/5YW25Y+v5qOA57SiCiAgICByZXF1ZXN0cy5wb3N0KGYie0VTX1VSTH0ve0lOREVYfS9fcmVmcmVzaCIpCiAgICBjbnQgPSByZXF1ZXN0cy5nZXQoZiJ7RVNfVVJMfS97SU5ERVh9L19jb3VudCIpLmpzb24oKQogICAgcHJpbnQoZiJbK10g57Si5byV5Y+v5qOA57Si5paH5qGj5pWwOiB7Y250LmdldCgnY291bnQnKX0iKQoKICAgICMg5L+d5a2YIHF1ZXJpZXMg5L6bIGNvbXBhcmUucHkg5L2/55SoCiAgICBxZmlsZSA9IG9zLnBhdGguam9pbihvcy5wYXRoLmRpcm5hbWUoQ09SUFVTX0ZJTEUpLCAicXVlcmllcy5qc29uIikKICAgIHdpdGggb3BlbihxZmlsZSwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgIGpzb24uZHVtcChjb3JwdXNbInF1ZXJpZXMiXSwgZiwgZW5zdXJlX2FzY2lpPUZhbHNlLCBpbmRlbnQ9MikKICAgIHByaW50KGYiWytdIOafpeivoumbhuW3suS/neWtmDoge3FmaWxlfSAgKHtsZW4oY29ycHVzWydxdWVyaWVzJ10pfSDmnaEpIikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigp
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+准备数据并灌入 Elasticsearch。
+
+工程降级说明：
+  容器内未装 IK 中文分词插件时，BM25 中文召回会失效。
+  因此这里采用「Python 侧 jieba 预分词 + 双字段索引」方案：
+    - title        : 原文标题
+    - text         : 原文正文（standard 分词）
+    - text_standard: jieba 分词后用空格连接的字符串（保证 BM25 能命中中文词）
+  这是工程上「先保证跑对，再优化实现」的典型做法：不依赖中文分词插件，
+  用双字段索引让 BM25 在中文上稳定工作。
+"""
+
+import json
+import os
+import sys
+import time
+
+import jieba
+import requests
+
+ES_URL = os.environ.get("ES_URL", "http://localhost:9200")
+INDEX = "medical_docs"
+CORPUS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "medical_corpus.json")
+
+MAPPING = {
+    "mappings": {
+        "properties": {
+            "doc_id": {"type": "keyword"},
+            "title": {"type": "text", "analyzer": "standard"},
+            "text": {"type": "text", "analyzer": "standard"},
+            "text_standard": {"type": "text", "analyzer": "standard"},
+            "keywords": {"type": "keyword"},
+            "raw_text": {"type": "text", "index": False},
+        }
+    },
+    "settings": {"number_of_shards": 1, "number_of_replicas": 0},
+}
+
+
+def wait_for_es(max_wait=180):
+    print("[*] 等待 Elasticsearch 就绪 ...")
+    start = time.time()
+    while time.time() - start < max_wait:
+        try:
+            r = requests.get(ES_URL, timeout=5)
+            if r.status_code == 200:
+                info = r.json()
+                print(f"[+] ES 就绪  version={info.get('version', {}).get('number')}")
+                return True
+        except Exception:
+            pass
+        time.sleep(3)
+    print("[-] ES 未在超时内就绪，请确认 docker compose up -d 已启动")
+    return False
+
+
+def load_corpus():
+    with open(CORPUS_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def build_docs(corpus):
+    docs = []
+    for d in corpus["docs"]:
+        seg = " ".join(jieba.lcut(d["title"] + " " + d["text"]))
+        docs.append({
+            "doc_id": d["id"],
+            "title": d["title"],
+            "text": d["text"],
+            "text_standard": seg,
+            "keywords": d.get("keywords", []),
+            "raw_text": d["title"] + "。 " + d["text"],
+        })
+    return docs
+
+
+def main():
+    if not wait_for_es():
+        sys.exit(1)
+
+    corpus = load_corpus()
+    docs = build_docs(corpus)
+
+    # 删旧索引重建，保证可重复执行
+    requests.delete(f"{ES_URL}/{INDEX}")
+
+    r = requests.put(f"{ES_URL}/{INDEX}", json=MAPPING)
+    if r.status_code not in (200, 201):
+        print("[-] 创建索引失败:", r.status_code, r.text[:500])
+        sys.exit(1)
+    print(f"[+] 索引 {INDEX} 创建成功")
+
+    # 批量写入
+    body_lines = []
+    for d in docs:
+        body_lines.append(json.dumps({"index": {"_index": INDEX, "_id": d["doc_id"]}}))
+        body_lines.append(json.dumps(d, ensure_ascii=False))
+
+    payload = "\n".join(body_lines) + "\n"
+    r = requests.post(
+        f"{ES_URL}/_bulk",
+        data=payload.encode("utf-8"),
+        headers={"Content-Type": "application/x-ndjson"},
+    )
+    res = r.json()
+    if res.get("errors"):
+        print("[-] 批量写入有错误:", json.dumps(res, ensure_ascii=False)[:600])
+        sys.exit(1)
+    print(f"[+] 已写入 {len(docs)} 条文档")
+
+    # 刷新索引使其可检索
+    requests.post(f"{ES_URL}/{INDEX}/_refresh")
+    cnt = requests.get(f"{ES_URL}/{INDEX}/_count").json()
+    print(f"[+] 索引可检索文档数: {cnt.get('count')}")
+
+    # 保存 queries 供 compare.py 使用
+    qfile = os.path.join(os.path.dirname(CORPUS_FILE), "queries.json")
+    with open(qfile, "w", encoding="utf-8") as f:
+        json.dump(corpus["queries"], f, ensure_ascii=False, indent=2)
+    print(f"[+] 查询集已保存: {qfile}  ({len(corpus['queries'])} 条)")
+
+
+if __name__ == "__main__":
+    main()

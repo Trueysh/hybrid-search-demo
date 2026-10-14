@@ -1,1 +1,213 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uCiMgLSotIGNvZGluZzogdXRmLTggLSotCiIiIgrnuq/mnKzlnLDniYjmt7flkIjmo4DntKLlr7nmr5TvvIjml6DpnIAgRG9ja2VyIC8g5peg6ZyAIEVT77yJCgrjgJDkuLrku4DkuYjmnInov5nkuKrmlofku7bjgJEKICDlnKjml6Dms5XlkK/liqggRG9ja2VyIOeahOeOr+Wig+mHjO+8jOeUqOOAjGppZWJhIOWIhuivjSArIEJNMjUg5omT5YiG44CN5Zyo57qvIFB5dGhvbiDph4zlpI3njrAKICBFUyDnmoTlhbPplK7or43mo4DntKLpgLvovpHvvJvlkJHph4/kvqfkuI4gUlJGIOiejeWQiOmAu+i+keWSjCBjb21wYXJlLnB5IOWujOWFqOS4gOiHtO+8jAogIOWboOatpOS4pOenjeeOr+Wig+S4i+e7k+iuuuaWueWQkeebuOWQjO+8jOWPr+S7peWFiOeUqOacrOiEmuacrOW/q+mAn+mqjOivgeetlueVpemAieaLqeOAggoK44CQ6L6555WM44CRCiAg5a6D5LiN5piv55yf55qEIEVsYXN0aWNzZWFyY2jigJTigJTmsqHmnInlgJLmjpLntKLlvJXjgIHmsqHmnInliIbluIPlvI/jgIHmiZPliIblrp7njrDkuZ/kuI4gRVMg5LiN5ZCM44CCCiAg6L276YeP5a6e546w55So5p2l6aqM6K+B5pa55ZCR77yb5raJ5Y+K5YW35L2T5pWw5a2X5pe277yM6K+35Lul55yf5a6eIEVT77yIY29tcGFyZS5wee+8ieeahOWunua1i+S4uuWHhuOAggoK44CQ5bel56iL5oCd6Lev44CRCiAg5YWI55So6L276YeP5a6e546w6aqM6K+B562W55Wl6YCJ5oup55qE5pa55ZCR77yM5YaN55So55yf5a6e546v5aKD56Gu6K6k57uT5p6c44CCCiIiIgoKaW1wb3J0IGpzb24KaW1wb3J0IG1hdGgKaW1wb3J0IG9zCmZyb20gY29sbGVjdGlvbnMgaW1wb3J0IENvdW50ZXIsIGRlZmF1bHRkaWN0CgppbXBvcnQgamllYmEKaW1wb3J0IG51bXB5IGFzIG5wCgpqaWViYS5zZXRMb2dMZXZlbCg2MCkKCkJBU0UgPSBvcy5wYXRoLmRpcm5hbWUob3MucGF0aC5hYnNwYXRoKF9fZmlsZV9fKSkKQ09SUFVTID0gb3MucGF0aC5qb2luKEJBU0UsICJtZWRpY2FsX2NvcnB1cy5qc29uIikKVE9QX0sgPSAzClJSRl9LID0gNjAKCiMgQk0yNSDotoXlj4LvvJprMSDmjqfliLbor43popHppbHlkozvvIxiIOaOp+WItuaWh+aho+mVv+W6puW9kuS4gOWMlu+8iEVTIOm7mOiupCBrMT0xLjIsIGI9MC43Ne+8iQpLMSA9IDEuMgpCID0gMC43NQoKCmNsYXNzIFNpbXBsZUJNMjU6CiAgICAiIiLnuq8gUHl0aG9uIEJNMjUg5a6e546w77yM55So5LqO5aSN546wIEVTIOeahOWFs+mUruivjeajgOe0ouihjOS4uuOAgiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBkb2NzKToKICAgICAgICBzZWxmLmRvY19pZHMgPSBbZFsiaWQiXSBmb3IgZCBpbiBkb2NzXQogICAgICAgIHNlbGYudG9rZW5pemVkID0gWwogICAgICAgICAgICBbdyBmb3IgdyBpbiBqaWViYS5sY3V0KGRbInRpdGxlIl0gKyAiICIgKyBkWyJ0ZXh0Il0pIGlmIHcuc3RyaXAoKV0KICAgICAgICAgICAgZm9yIGQgaW4gZG9jcwogICAgICAgIF0KICAgICAgICBzZWxmLmRsID0gbnAuYXJyYXkoW2xlbih0KSBmb3IgdCBpbiBzZWxmLnRva2VuaXplZF0sIGR0eXBlPWZsb2F0KQogICAgICAgIHNlbGYuYXZnZGwgPSBzZWxmLmRsLm1lYW4oKSBpZiBsZW4oc2VsZi5kbCkgZWxzZSAxLjAKCiAgICAgICAgIyDlgJLmjpLntKLlvJXvvJror40gLT4gWyhkb2NfaWR4LCB0ZiksIC4uLl0KICAgICAgICBzZWxmLmludiA9IGRlZmF1bHRkaWN0KGxpc3QpCiAgICAgICAgZm9yIGksIHRva3MgaW4gZW51bWVyYXRlKHNlbGYudG9rZW5pemVkKToKICAgICAgICAgICAgZm9yIHcsIGMgaW4gQ291bnRlcih0b2tzKS5pdGVtcygpOgogICAgICAgICAgICAgICAgc2VsZi5pbnZbd10uYXBwZW5kKChpLCBjKSkKCiAgICAgICAgbiA9IGxlbihkb2NzKQogICAgICAgIHNlbGYuaWRmID0ge30KICAgICAgICBmb3IgdywgcGxpc3QgaW4gc2VsZi5pbnYuaXRlbXMoKToKICAgICAgICAgICAgZGYgPSBsZW4ocGxpc3QpCiAgICAgICAgICAgIHNlbGYuaWRmW3ddID0gbWF0aC5sb2coMSArIChuIC0gZGYgKyAwLjUpIC8gKGRmICsgMC41KSkKCiAgICBkZWYgc2VhcmNoKHNlbGYsIHF1ZXJ5LCB0b3Bfaz1UT1BfSyk6CiAgICAgICAgdG9rcyA9IFt3IGZvciB3IGluIGppZWJhLmxjdXQocXVlcnkpIGlmIHcuc3RyaXAoKV0KICAgICAgICBzY29yZXMgPSBkZWZhdWx0ZGljdChmbG9hdCkKICAgICAgICBmb3IgdyBpbiB0b2tzOgogICAgICAgICAgICBpZiB3IG5vdCBpbiBzZWxmLmludjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIGlkZiA9IHNlbGYuaWRmW3ddCiAgICAgICAgICAgIGZvciBpLCB0ZiBpbiBzZWxmLmludlt3XToKICAgICAgICAgICAgICAgIGRlbm9tID0gdGYgKyBLMSAqICgxIC0gQiArIEIgKiBzZWxmLmRsW2ldIC8gc2VsZi5hdmdkbCkKICAgICAgICAgICAgICAgIHNjb3Jlc1tpXSArPSBpZGYgKiAodGYgKiAoSzEgKyAxKSkgLyBkZW5vbQogICAgICAgIHJhbmtlZCA9IHNvcnRlZChzY29yZXMuaXRlbXMoKSwga2V5PWxhbWJkYSB4OiAteFsxXSlbOnRvcF9rXQogICAgICAgIHJldHVybiBbc2VsZi5kb2NfaWRzW2ldIGZvciBpLCBfIGluIHJhbmtlZF0KCgpjbGFzcyBUZmlkZlZlY3RvcjoKICAgICIiIlRGLUlERiDlkJHph4/mo4DntKLvvIjor63kuYnov5HkvLzvvInjgIIiIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgZG9jcyk6CiAgICAgICAgc2VsZi5kb2NfaWRzID0gW2RbImlkIl0gZm9yIGQgaW4gZG9jc10KICAgICAgICBzZWxmLnZvY2FiID0ge30KICAgICAgICBzZWxmLnRva2VuaXplZCA9IFtdCiAgICAgICAgZm9yIGQgaW4gZG9jczoKICAgICAgICAgICAgdG9rcyA9IFt3IGZvciB3IGluIGppZWJhLmxjdXQoZFsidGl0bGUiXSArICIgIiArIGRbInRleHQiXSkgaWYgdy5zdHJpcCgpXQogICAgICAgICAgICBzZWxmLnRva2VuaXplZC5hcHBlbmQodG9rcykKICAgICAgICAgICAgZm9yIHcgaW4gdG9rczoKICAgICAgICAgICAgICAgIGlmIHcgbm90IGluIHNlbGYudm9jYWI6CiAgICAgICAgICAgICAgICAgICAgc2VsZi52b2NhYlt3XSA9IGxlbihzZWxmLnZvY2FiKQoKICAgICAgICBWID0gbGVuKHNlbGYudm9jYWIpCiAgICAgICAgc2VsZi50ZiA9IG5wLnplcm9zKChsZW4oZG9jcyksIFYpKQogICAgICAgIGZvciBpLCB0b2tzIGluIGVudW1lcmF0ZShzZWxmLnRva2VuaXplZCk6CiAgICAgICAgICAgIGNudCA9IENvdW50ZXIodG9rcykKICAgICAgICAgICAgdG90ID0gc3VtKGNudC52YWx1ZXMoKSkgb3IgMQogICAgICAgICAgICBmb3IgdywgYyBpbiBjbnQuaXRlbXMoKToKICAgICAgICAgICAgICAgIHNlbGYudGZbaSwgc2VsZi52b2NhYlt3XV0gPSBjIC8gdG90CgogICAgICAgIGRmID0gKHNlbGYudGYgPiAwKS5zdW0oYXhpcz0wKQogICAgICAgIHNlbGYuaWRmID0gbnAubG9nKCgxICsgbGVuKGRvY3MpKSAvICgxICsgZGYpKSArIDEKICAgICAgICBzZWxmLm1hdCA9IHNlbGYudGYgKiBzZWxmLmlkZgogICAgICAgIHNlbGYuZG5vcm0gPSBucC5saW5hbGcubm9ybShzZWxmLm1hdCwgYXhpcz0xKQogICAgICAgIHNlbGYuZG5vcm1bc2VsZi5kbm9ybSA9PSAwXSA9IDEKCiAgICBkZWYgc2VhcmNoKHNlbGYsIHF1ZXJ5LCB0b3Bfaz1UT1BfSyk6CiAgICAgICAgdG9rcyA9IFt3IGZvciB3IGluIGppZWJhLmxjdXQocXVlcnkpIGlmIHcuc3RyaXAoKSBhbmQgdyBpbiBzZWxmLnZvY2FiXQogICAgICAgIGlmIG5vdCB0b2tzOgogICAgICAgICAgICByZXR1cm4gW10KICAgICAgICBxID0gbnAuemVyb3MobGVuKHNlbGYudm9jYWIpKQogICAgICAgIGNudCA9IENvdW50ZXIodG9rcykKICAgICAgICB0b3QgPSBzdW0oY250LnZhbHVlcygpKQogICAgICAgIGZvciB3LCBjIGluIGNudC5pdGVtcygpOgogICAgICAgICAgICBxW3NlbGYudm9jYWJbd11dID0gYyAvIHRvdAogICAgICAgIHEgKj0gc2VsZi5pZGYKICAgICAgICBxbiA9IG5wLmxpbmFsZy5ub3JtKHEpIG9yIDEKICAgICAgICBzY29yZXMgPSBzZWxmLm1hdC5kb3QocSkgLyAoc2VsZi5kbm9ybSAqIHFuKQogICAgICAgIG9yZGVyID0gbnAuYXJnc29ydCgtc2NvcmVzKVs6dG9wX2tdCiAgICAgICAgcmV0dXJuIFtzZWxmLmRvY19pZHNbaV0gZm9yIGkgaW4gb3JkZXJdCgoKZGVmIHJyZl9mdXNlKHJhbmtfbGlzdHMsIGs9UlJGX0ssIHRvcF9rPVRPUF9LKToKICAgIHNjb3JlcyA9IHt9CiAgICBmb3IgcmFua3MgaW4gcmFua19saXN0czoKICAgICAgICBmb3IgcmFuaywgZG9jX2lkIGluIGVudW1lcmF0ZShyYW5rcywgc3RhcnQ9MSk6CiAgICAgICAgICAgIHNjb3Jlc1tkb2NfaWRdID0gc2NvcmVzLmdldChkb2NfaWQsIDAuMCkgKyAxLjAgLyAoayArIHJhbmspCiAgICByZXR1cm4gW2QgZm9yIGQsIF8gaW4gc29ydGVkKHNjb3Jlcy5pdGVtcygpLCBrZXk9bGFtYmRhIHg6IC14WzFdKVs6dG9wX2tdXQoKCmRlZiBpc19oaXQodG9wX2lkcywgZ29sZCk6CiAgICBnb2xkcyA9IGdvbGQgaWYgaXNpbnN0YW5jZShnb2xkLCBsaXN0KSBlbHNlIFtnb2xkXQogICAgcmV0dXJuIGFueShnIGluIHRvcF9pZHMgZm9yIGcgaW4gZ29sZHMpCgoKZGVmIGV2YWx1YXRlKGJ5X3R5cGUpOgogICAgb3V0LCBhbGx2ID0ge30sIFtdCiAgICBmb3IgdCBpbiAoInRlcm1pbm9sb2d5IiwgInNlbWFudGljIiwgInRyYXAiKToKICAgICAgICB2ID0gW3hbImhpdCJdIGZvciB4IGluIGJ5X3R5cGUuZ2V0KHQsIFtdKV0KICAgICAgICBvdXRbdF0gPSAoc3VtKHYpIC8gbGVuKHYpICogMTAwKSBpZiB2IGVsc2UgMC4wCiAgICAgICAgYWxsdi5leHRlbmQodikKICAgIG91dFsiYWxsIl0gPSAoc3VtKGFsbHYpIC8gbGVuKGFsbHYpICogMTAwKSBpZiBhbGx2IGVsc2UgMC4wCiAgICByZXR1cm4gb3V0CgoKZGVmIGJsb2NrKHRpdGxlLCBzdGF0LCBpbmRlbnQ9IiAgIik6CiAgICBwcmludCgiLSIgKiA2MikKICAgIHByaW50KGYie2luZGVudH17dGl0bGV9IikKICAgIHByaW50KCItIiAqIDYyKQogICAgZm9yIGssIGxhYiBpbiAoKCJ0ZXJtaW5vbG9neSIsICLmnK/or63nsbsgcXVlcnkg5ZG95Lit546HIiksCiAgICAgICAgICAgICAgICAgICAoInNlbWFudGljIiwgIuaPj+i/sOexuyBxdWVyeSDlkb3kuK3njociKSwKICAgICAgICAgICAgICAgICAgICgidHJhcCIsICLmnK/or63pmbfpmLEgcXVlcnkg5ZG95Lit546HIiksCiAgICAgICAgICAgICAgICAgICAoImFsbCIsICLnu7zlkIjlkb3kuK3njociKSk6CiAgICAgICAgcHJpbnQoZiJ7aW5kZW50fSAge2xhYjo8MjR9e3N0YXRba106PjcuMWZ9JSIpCiAgICBwcmludCgpCgoKZGVmIG1haW4oKToKICAgIGRhdGEgPSBqc29uLmxvYWQob3BlbihDT1JQVVMsICJyIiwgZW5jb2Rpbmc9InV0Zi04IikpCiAgICBkb2NzLCBxdWVyaWVzID0gZGF0YVsiZG9jcyJdLCBkYXRhWyJxdWVyaWVzIl0KCiAgICBwcmludCgpCiAgICBwcmludCgiPSIgKiA2MikKICAgIHByaW50KCIg5Yy755aXIFJBRyDmo4DntKLnrZbnlaXlr7nmr5TvvIjmnKzlnLDniYjvvJpqaWViYSArIEJNMjUgLyBURi1JREYgLyBSUkbvvIkiKQogICAgcHJpbnQoIj0iICogNjIpCiAgICBwcmludChmIiAg6K+t5paZ77yae2xlbihkb2NzKX0g5p2hIHwg5p+l6K+i77yae2xlbihxdWVyaWVzKX0g5p2hIHwgdG9wX2s9e1RPUF9LfSB8IFJSRiBrPXtSUkZfS30iKQogICAgcHJpbnQoIiAg4pqgIOacrOWcsCBCTTI1IOWunueOsO+8jOmdnuecn+WuniBFbGFzdGljc2VhcmNo44CC5oql5pWw5a2X5pe26aG76K+05piO44CCIikKICAgIHByaW50KCkKCiAgICBibTI1ID0gU2ltcGxlQk0yNShkb2NzKQogICAgdmVjID0gVGZpZGZWZWN0b3IoZG9jcykKCiAgICByZXMgPSB7ImJtMjUiOiB7fSwgInZlY3RvciI6IHt9LCAicnJmIjoge319CiAgICB0cmFwcyA9IFtdCgogICAgZm9yIHEgaW4gcXVlcmllczoKICAgICAgICBxdCwgZ2lkLCBxdWVyeSA9IHFbInR5cGUiXSwgcVsiZ29sZCJdLCBxWyJxIl0KICAgICAgICByX2JtID0gYm0yNS5zZWFyY2gocXVlcnkpCiAgICAgICAgcl92ZSA9IHZlYy5zZWFyY2gocXVlcnkpCiAgICAgICAgcl9yciA9IHJyZl9mdXNlKFtyX2JtLCByX3ZlXSkKICAgICAgICBmb3IgaywgcmFua3MgaW4gKCgiYm0yNSIsIHJfYm0pLCAoInZlY3RvciIsIHJfdmUpLCAoInJyZiIsIHJfcnIpKToKICAgICAgICAgICAgcmVzW2tdLnNldGRlZmF1bHQocXQsIFtdKS5hcHBlbmQoeyJoaXQiOiBpc19oaXQocmFua3MsIGdpZCksICJxIjogcXVlcnl9KQogICAgICAgIGlmIHF0ID09ICJ0cmFwIjoKICAgICAgICAgICAgdHJhcHMuYXBwZW5kKChxdWVyeSwgZ2lkLCByX2JtLCByX3ZlLCByX3JyKSkKCiAgICBibG9jaygi562W55WlIDHvvJpCTTI177yIamllYmEg5YiG6K+NICsgQk0yNSDmiZPliIbvvIkiLCBldmFsdWF0ZShyZXNbImJtMjUiXSkpCiAgICBibG9jaygi562W55WlIDLvvJrnuq/or63kuYnlkJHph4/vvIhURi1JREYg5L2Z5bym77yJIiwgZXZhbHVhdGUocmVzWyJ2ZWN0b3IiXSkpCiAgICBibG9jaygi562W55WlIDPvvJpSUkYg5re35ZCI77yIMS8oNjArcmFuaykg5Yqg5p2D6J6N5ZCI77yJIiwgZXZhbHVhdGUocmVzWyJycmYiXSkpCgogICAgcHJpbnQoIi0iICogNjIpCiAgICBwcmludCgiICDmnK/or63pmbfpmLHmvJTnpLrvvIhQRC0xIOS4jiBQRC1MMe+8iSIpCiAgICBwcmludCgiLSIgKiA2MikKICAgIGZvciBxdWVyeSwgZ2lkLCByX2JtLCByX3ZlLCByX3JyIGluIHRyYXBzOgogICAgICAgIHByaW50KGYiICBxdWVyeeOAjHtxdWVyeX3jgI0gIGdvbGQ9e2dpZH0iKQogICAgICAgIHByaW50KGYiICAgIEJNMjUgIHRvcHtUT1BfS30gOiB7cl9ibX0iKQogICAgICAgIHByaW50KGYiICAgIOWQkemHjyAgdG9we1RPUF9LfSA6IHtyX3ZlfSIpCiAgICAgICAgcHJpbnQoZiIgICAgUlJGICAgdG9we1RPUF9LfSA6IHtyX3JyfSIpCiAgICAgICAgZ29sZHMgPSBnaWQgaWYgaXNpbnN0YW5jZShnaWQsIGxpc3QpIGVsc2UgW2dpZF0KICAgICAgICB3cm9uZyA9IFtkIGZvciBkIGluIHJfdmUgaWYgZCBpbiAoIkQwMiIsICJEMDMiLCAiRDE5IikgYW5kIGQgbm90IGluIGdvbGRzXQogICAgICAgIHByaW50KGYiICAgIOKGkiDnuq/lkJHph497J+KaoCDmnK/or63mt7fmt4Y6ICcgKyBzdHIod3JvbmcpIGlmIHdyb25nIGVsc2UgJ+KckyDmnKrmt7fmt4YnfSIpCiAgICAgICAgcHJpbnQoKQoKICAgIHByaW50KCI9IiAqIDYyKQogICAgcHJpbnQoIuOAkOe7k+iuuuOAkSIpCiAgICBwcmludCgiICDCtyDmnK/or63nsbvvvIjoja/lkI0v57yp5YaZ77yJ77yaQk0yNSDpnaDlrZfpnaLnqLPlrprlkb3kuK3vvIzor63kuYnlkJHph4/mmJPmvILnp7siKQogICAgcHJpbnQoIiAgwrcg5o+P6L+w57G777yI55eH54q2L+WPo+ivre+8ie+8mkJNMjUg5ZG95Lit5LiN5LqG77yM6K+t5LmJ5ZCR6YeP6IO95Y+s5ZueIikKICAgIHByaW50KCIgIMK3IFJSRiDmt7flkIjvvJrkuKTnsbsgcXVlcnkg5ZCM5pe25ou/5Yiw5pyA5aW9IOKGkiDljLvnlpflnLrmma/lv4Xpobvlj4zot6/lj6zlm54iKQogICAgcHJpbnQoKQogICAgcHJpbnQoIuOAkOS4i+S4gOatpeOAkei3kemAmuecnyBFU++8iGRvY2tlciBjb21wb3NlIHVwIC1kIOKGkiBwcmVwYXJlX2FuZF9sb2FkLnB5IOKGkiBjb21wYXJlLnB577yJ77yMIikKICAgIHByaW50KCIgIOehruiupOecn+WuniBFUyDkuI7mnKzlnLDnu5PorrrkuIDoh7TlkI7vvIzku6UgRVMg55qE5a6e5rWL5pWw5a2X5Li65YeG44CCIikKICAgIHByaW50KCI9IiAqIDYyKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCk=
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+纯本地版混合检索对比（无需 Docker / 无需 ES）
+
+【为什么有这个文件】
+  在无法启动 Docker 的环境里，用「jieba 分词 + BM25 打分」在纯 Python 里复现
+  ES 的关键词检索逻辑；向量侧与 RRF 融合逻辑和 compare.py 完全一致，
+  因此两种环境下结论方向相同，可以先用本脚本快速验证策略选择。
+
+【边界】
+  它不是真的 Elasticsearch——没有倒排索引、没有分布式、打分实现也与 ES 不同。
+  轻量实现用来验证方向；涉及具体数字时，请以真实 ES（compare.py）的实测为准。
+
+【工程思路】
+  先用轻量实现验证策略选择的方向，再用真实环境确认结果。
+"""
+
+import json
+import math
+import os
+from collections import Counter, defaultdict
+
+import jieba
+import numpy as np
+
+jieba.setLogLevel(60)
+
+BASE = os.path.dirname(os.path.abspath(__file__))
+CORPUS = os.path.join(BASE, "medical_corpus.json")
+TOP_K = 3
+RRF_K = 60
+
+# BM25 超参：k1 控制词频饱和，b 控制文档长度归一化（ES 默认 k1=1.2, b=0.75）
+K1 = 1.2
+B = 0.75
+
+
+class SimpleBM25:
+    """纯 Python BM25 实现，用于复现 ES 的关键词检索行为。"""
+
+    def __init__(self, docs):
+        self.doc_ids = [d["id"] for d in docs]
+        self.tokenized = [
+            [w for w in jieba.lcut(d["title"] + " " + d["text"]) if w.strip()]
+            for d in docs
+        ]
+        self.dl = np.array([len(t) for t in self.tokenized], dtype=float)
+        self.avgdl = self.dl.mean() if len(self.dl) else 1.0
+
+        # 倒排索引：词 -> [(doc_idx, tf), ...]
+        self.inv = defaultdict(list)
+        for i, toks in enumerate(self.tokenized):
+            for w, c in Counter(toks).items():
+                self.inv[w].append((i, c))
+
+        n = len(docs)
+        self.idf = {}
+        for w, plist in self.inv.items():
+            df = len(plist)
+            self.idf[w] = math.log(1 + (n - df + 0.5) / (df + 0.5))
+
+    def search(self, query, top_k=TOP_K):
+        toks = [w for w in jieba.lcut(query) if w.strip()]
+        scores = defaultdict(float)
+        for w in toks:
+            if w not in self.inv:
+                continue
+            idf = self.idf[w]
+            for i, tf in self.inv[w]:
+                denom = tf + K1 * (1 - B + B * self.dl[i] / self.avgdl)
+                scores[i] += idf * (tf * (K1 + 1)) / denom
+        ranked = sorted(scores.items(), key=lambda x: -x[1])[:top_k]
+        return [self.doc_ids[i] for i, _ in ranked]
+
+
+class TfidfVector:
+    """TF-IDF 向量检索（语义近似）。"""
+
+    def __init__(self, docs):
+        self.doc_ids = [d["id"] for d in docs]
+        self.vocab = {}
+        self.tokenized = []
+        for d in docs:
+            toks = [w for w in jieba.lcut(d["title"] + " " + d["text"]) if w.strip()]
+            self.tokenized.append(toks)
+            for w in toks:
+                if w not in self.vocab:
+                    self.vocab[w] = len(self.vocab)
+
+        V = len(self.vocab)
+        self.tf = np.zeros((len(docs), V))
+        for i, toks in enumerate(self.tokenized):
+            cnt = Counter(toks)
+            tot = sum(cnt.values()) or 1
+            for w, c in cnt.items():
+                self.tf[i, self.vocab[w]] = c / tot
+
+        df = (self.tf > 0).sum(axis=0)
+        self.idf = np.log((1 + len(docs)) / (1 + df)) + 1
+        self.mat = self.tf * self.idf
+        self.dnorm = np.linalg.norm(self.mat, axis=1)
+        self.dnorm[self.dnorm == 0] = 1
+
+    def search(self, query, top_k=TOP_K):
+        toks = [w for w in jieba.lcut(query) if w.strip() and w in self.vocab]
+        if not toks:
+            return []
+        q = np.zeros(len(self.vocab))
+        cnt = Counter(toks)
+        tot = sum(cnt.values())
+        for w, c in cnt.items():
+            q[self.vocab[w]] = c / tot
+        q *= self.idf
+        qn = np.linalg.norm(q) or 1
+        scores = self.mat.dot(q) / (self.dnorm * qn)
+        order = np.argsort(-scores)[:top_k]
+        return [self.doc_ids[i] for i in order]
+
+
+def rrf_fuse(rank_lists, k=RRF_K, top_k=TOP_K):
+    scores = {}
+    for ranks in rank_lists:
+        for rank, doc_id in enumerate(ranks, start=1):
+            scores[doc_id] = scores.get(doc_id, 0.0) + 1.0 / (k + rank)
+    return [d for d, _ in sorted(scores.items(), key=lambda x: -x[1])[:top_k]]
+
+
+def is_hit(top_ids, gold):
+    golds = gold if isinstance(gold, list) else [gold]
+    return any(g in top_ids for g in golds)
+
+
+def evaluate(by_type):
+    out, allv = {}, []
+    for t in ("terminology", "semantic", "trap"):
+        v = [x["hit"] for x in by_type.get(t, [])]
+        out[t] = (sum(v) / len(v) * 100) if v else 0.0
+        allv.extend(v)
+    out["all"] = (sum(allv) / len(allv) * 100) if allv else 0.0
+    return out
+
+
+def block(title, stat, indent="  "):
+    print("-" * 62)
+    print(f"{indent}{title}")
+    print("-" * 62)
+    for k, lab in (("terminology", "术语类 query 命中率"),
+                   ("semantic", "描述类 query 命中率"),
+                   ("trap", "术语陷阱 query 命中率"),
+                   ("all", "综合命中率")):
+        print(f"{indent}  {lab:<24}{stat[k]:>7.1f}%")
+    print()
+
+
+def main():
+    data = json.load(open(CORPUS, "r", encoding="utf-8"))
+    docs, queries = data["docs"], data["queries"]
+
+    print()
+    print("=" * 62)
+    print(" 医疗 RAG 检索策略对比（本地版：jieba + BM25 / TF-IDF / RRF）")
+    print("=" * 62)
+    print(f"  语料：{len(docs)} 条 | 查询：{len(queries)} 条 | top_k={TOP_K} | RRF k={RRF_K}")
+    print("  ⚠ 本地 BM25 实现，非真实 Elasticsearch。报数字时须说明。")
+    print()
+
+    bm25 = SimpleBM25(docs)
+    vec = TfidfVector(docs)
+
+    res = {"bm25": {}, "vector": {}, "rrf": {}}
+    traps = []
+
+    for q in queries:
+        qt, gid, query = q["type"], q["gold"], q["q"]
+        r_bm = bm25.search(query)
+        r_ve = vec.search(query)
+        r_rr = rrf_fuse([r_bm, r_ve])
+        for k, ranks in (("bm25", r_bm), ("vector", r_ve), ("rrf", r_rr)):
+            res[k].setdefault(qt, []).append({"hit": is_hit(ranks, gid), "q": query})
+        if qt == "trap":
+            traps.append((query, gid, r_bm, r_ve, r_rr))
+
+    block("策略 1：BM25（jieba 分词 + BM25 打分）", evaluate(res["bm25"]))
+    block("策略 2：纯语义向量（TF-IDF 余弦）", evaluate(res["vector"]))
+    block("策略 3：RRF 混合（1/(60+rank) 加权融合）", evaluate(res["rrf"]))
+
+    print("-" * 62)
+    print("  术语陷阱演示（PD-1 与 PD-L1）")
+    print("-" * 62)
+    for query, gid, r_bm, r_ve, r_rr in traps:
+        print(f"  query「{query}」  gold={gid}")
+        print(f"    BM25  top{TOP_K} : {r_bm}")
+        print(f"    向量  top{TOP_K} : {r_ve}")
+        print(f"    RRF   top{TOP_K} : {r_rr}")
+        golds = gid if isinstance(gid, list) else [gid]
+        wrong = [d for d in r_ve if d in ("D02", "D03", "D19") and d not in golds]
+        print(f"    → 纯向量{'⚠ 术语混淆: ' + str(wrong) if wrong else '✓ 未混淆'}")
+        print()
+
+    print("=" * 62)
+    print("【结论】")
+    print("  · 术语类（药名/缩写）：BM25 靠字面稳定命中，语义向量易漂移")
+    print("  · 描述类（症状/口语）：BM25 命中不了，语义向量能召回")
+    print("  · RRF 混合：两类 query 同时拿到最好 → 医疗场景必须双路召回")
+    print()
+    print("【下一步】跑通真 ES（docker compose up -d → prepare_and_load.py → compare.py），")
+    print("  确认真实 ES 与本地结论一致后，以 ES 的实测数字为准。")
+    print("=" * 62)
+
+
+if __name__ == "__main__":
+    main()

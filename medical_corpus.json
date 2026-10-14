@@ -1,1 +1,413 @@
-ew0KICAiX25vdGUiOiAi5Yy755aXIFJBRyDmo4DntKLlr7nmr5Tor63mlpnjgILmr4/mnaEgZG9jIOaciSBpZC90aXRsZS90ZXh0L2tleXdvcmRz44CCcXVlcmllcyDph4zmr4/mnaHmoIfms6jkuoYgZ29sZO+8iOacn+acm+WRveS4reeahCBkb2MgaWTvvInkuI7nsbvlnovvvIh0ZXJtaW5vbG9neT3mnK/or63nsbsgLyBzZW1hbnRpYz3mj4/ov7DnsbsgLyB0cmFwPeacr+ivremZt+mYse+8ieOAgiIsDQogICJkb2NzIjogWw0KICAgIHsNCiAgICAgICJpZCI6ICJEMDEiLA0KICAgICAgInRpdGxlIjogIue0ouejt+W4g+mfpueJh+ivtOaYjuS5piIsDQogICAgICAidGV4dCI6ICLntKLno7fluIPpn6bniYfmmK/kuJnlnovogp3ngo7nl4Xmr5LvvIhIQ1bvvIlOUzVBL05TNUIg6IGU5ZCI5oqR5Yi25YmC77yM55So5LqO5oWi5oCn5LiZ5Z6L6IKd54KO55qE5oqX55eF5q+S5rK755aX44CC5o6o6I2Q5pa55qGI5Li657Si56O35biD6Z+m6IGU5ZCI5YW25LuW5oqX55eF5q+S6I2v54mp5Y+j5pyN57uZ6I2v77yM55aX56iL6YCa5bi45Li6IDEyIOWRqOOAguW4uOingeS4jeiJr+WPjeW6lOWMheaLrOS5j+WKm+OAgeaBtuW/g+WSjOWktOeXm+OAgiIsDQogICAgICAia2V5d29yZHMiOiBbDQogICAgICAgICLntKLno7fluIPpn6YiLA0KICAgICAgICAi5LiZ5Z6L6IKd54KOIiwNCiAgICAgICAgIkhDViIsDQogICAgICAgICJOUzVBIiwNCiAgICAgICAgIuaKl+eXheavkiINCiAgICAgIF0NCiAgICB9LA0KICAgIHsNCiAgICAgICJpZCI6ICJEMDIiLA0KICAgICAgInRpdGxlIjogIuWNoeeRnuWIqeePoOWNleaKl+azqOWwhOa2su+8iFBELTEg5oqR5Yi25YmC77yJIiwNCiAgICAgICJ0ZXh0IjogIuWNoeeRnuWIqeePoOWNleaKl+azqOWwhOa2suaYr+S4gOenjeS6uua6kOWMliBJZ0c0IOWNleWFi+mahuaKl+S9k++8jOmAmui/h+mYu+aWreeoi+W6j+aAp+atu+S6oeWPl+S9kyAx77yIUEQtMe+8ieS4jumFjeS9kyBQRC1MMS9QRC1MMiDnmoTnu5PlkIjvvIzop6PpmaQgVCDnu4bog57lhY3nlqvmipHliLbnirbmgIHvvIznlKjkuo7lpJrnp43lrp7kvZPnmKTnmoTlhY3nlqvmsrvnlpfjgIIiLA0KICAgICAgImtleXdvcmRzIjogWw0KICAgICAgICAi5Y2h55Ge5Yip54+g5Y2V5oqXIiwNCiAgICAgICAgIlBELTEiLA0KICAgICAgICAiUEQtTDEiLA0KICAgICAgICAi5YWN55ar5qOA5p+l54K55oqR5Yi25YmCIiwNCiAgICAgICAgIuWNleaKlyINCiAgICAgIF0NCiAgICB9LA0KICAgIHsNCiAgICAgICJpZCI6ICJEMDMiLA0KICAgICAgInRpdGxlIjogIuW4leWNmuWIqeePoOWNleaKl++8iFBELUwxIOaKkeWItuWJgu+8iSIsDQogICAgICAidGV4dCI6ICLluJXljZrliKnnj6DljZXmipfmmK/pkojlr7nnqIvluo/mgKfmrbvkuqHphY3kvZMgMe+8iFBELUwx77yJ55qE5Lq65rqQ5YyW5Y2V5YWL6ZqG5oqX5L2T77yM6YCa6L+H6Zi75patIFBELUwxIOS4jiBQRC0xIOeahOe7k+WQiOWPkeaMpeaKl+iCv+eYpOS9nOeUqOOAguWFtumAguW6lOeXh+imhueblumdnuWwj+e7huiDnuiCuueZjOOAgem7keiJsue0oOeYpOetieWkmuenjeiCv+eYpO+8jOW4uOS4juWMlueWl+iBlOeUqOOAgiIsDQogICAgICAia2V5d29yZHMiOiBbDQogICAgICAgICLluJXljZrliKnnj6DljZXmipciLA0KICAgICAgICAiUEQtTDEiLA0KICAgICAgICAiUEQtMSIsDQogICAgICAgICLlhY3nlqvmsrvnlpciLA0KICAgICAgICAi6Z2e5bCP57uG6IOe6IK655mMIg0KICAgICAgXQ0KICAgIH0sDQogICAgew0KICAgICAgImlkIjogIkQwNCIsDQogICAgICAidGl0bGUiOiAi5pu/6Zu35ZCJ6IK95rOo5bCE5ray77yIR0xQLTEg5Y+X5L2T5r+A5Yqo5YmC77yJIiwNCiAgICAgICJ0ZXh0IjogIuabv+mbt+WQieiCveazqOWwhOa2suaYr+iDsOmrmOihgOezlue0oOagt+iCvS0x77yIR0xQLTHvvInlj5fkvZPmv4DliqjliYLvvIzpgJrov4fokaHokITns5bkvp3otZbmgKfmnLrliLbkv4Pov5vog7DlspvntKDliIbms4zjgIHmipHliLbog7Dpq5jooYDns5bntKDph4rmlL7vvIznlKjkuo4gMiDlnovns5blsL/nl4XnmoTooYDns5bmjqfliLblubblhbflpIflh4/ph43ojrfnm4rjgIIiLA0KICAgICAgImtleXdvcmRzIjogWw0KICAgICAgICAi5pu/6Zu35ZCJ6IK9IiwNCiAgICAgICAgIkdMUC0xIiwNCiAgICAgICAgIjLlnovns5blsL/nl4UiLA0KICAgICAgICAi6ZmN57OWIiwNCiAgICAgICAgIuWHj+mHjSINCiAgICAgIF0NCiAgICB9LA0KICAgIHsNCiAgICAgICJpZCI6ICJEMDUiLA0KICAgICAgInRpdGxlIjogIuWMu+S/nSBEUkcvRElQIOaUr+S7mOaWueW8j+aUuemdqeivtOaYjiIsDQogICAgICAidGV4dCI6ICJEUkfvvIjnlr7nl4Xor4rmlq3nm7jlhbPliIbnu4TvvInmjInnlr7nl4Xnu4TmnYPph43ku5jotLnvvIxESVDvvIjmjInnl4Xnp43liIblgLzku5jotLnvvInmjInnl4Xnp43liIblgLzku5jotLnjgILkuKTnp43mlK/ku5jmlrnlvI/lnYfku6XkvY/pmaLnl4XmoYjpppbpobXnmoTor4rmlq3nvJbnoIHkuI7miYvmnK/mk43kvZznvJbnoIHkuLrkuLvopoHliIbnu4Tkvp3mja7vvIzljLvnlpfmnLrmnoTpnIDmja7mraTmjqfliLbljZXnl4Xnu4TmiJDmnKzjgIIiLA0KICAgICAgImtleXdvcmRzIjogWw0KICAgICAgICAiRFJHIiwNCiAgICAgICAgIkRJUCIsDQogICAgICAgICLljLvkv50iLA0KICAgICAgICAi55eF5qGI6aaW6aG1IiwNCiAgICAgICAgIue8lueggSIsDQogICAgICAgICLmjInnl4Xnp43ku5jotLkiDQogICAgICBdDQogICAgfSwNCiAgICB7DQogICAgICAiaWQiOiAiRDA2IiwNCiAgICAgICJ0aXRsZSI6ICJHQ1Ag6I2v54mp5Li05bqK6K+V6aqM6LSo6YeP566h55CG6KeE6IyDIiwNCiAgICAgICJ0ZXh0IjogIkdDUO+8iEdvb2QgQ2xpbmljYWwgUHJhY3RpY2XvvIzoja/niankuLTluoror5XpqozotKjph4/nrqHnkIbop4TojIPvvInop4TlrprkuobkuLTluoror5XpqoznmoTorr7orqHjgIHnu4Tnu4fjgIHlrp7mlr3jgIHorrDlvZXjgIHliIbmnpDkuI7miqXlkYrlhajov4fnqIvnmoTotKjph4/opoHmsYLvvIzmoLjlv4Pljp/liJnmmK/kv53miqTlj5for5XogIXmnYPnm4rkuI7noa7kv53or5Xpqoznu5PmnpznmoTnp5HlrabmgKflkozlj6/pnaDmgKfjgIIiLA0KICAgICAgImtleXdvcmRzIjogWw0KICAgICAgICAiR0NQIiwNCiAgICAgICAgIuS4tOW6iuivlemqjCIsDQogICAgICAgICLlj5for5XogIUiLA0KICAgICAgICAi6LSo6YeP6KeE6IyDIiwNCiAgICAgICAgIuefpeaDheWQjOaEjyINCiAgICAgIF0NCiAgICB9LA0KICAgIHsNCiAgICAgICJpZCI6ICJEMDciLA0KICAgICAgInRpdGxlIjogImVDVEQg6I2v5ZOB5rOo5YaM55Sz5oql5paH5Lu257uT5p6EIiwNCiAgICAgICJ0ZXh0IjogImVDVETvvIhFbGVjdHJvbmljIENvbW1vbiBUZWNobmljYWwgRG9jdW1lbnTvvIznlLXlrZDpgJrnlKjmioDmnK/mlofmoaPvvInlsIboja/lk4Hms6jlhoznlLPmiqXotYTmlpnmjInljLrln5/mqKHlnZfnu4Tnu4fvvIzmtrXnm5YgTW9kdWxlIDEg6KGM5pS/5LiO5rOV6KeE5L+h5oGv44CBTW9kdWxlIDIg5qaC6L+w5LiO6LSo6YeP44CBTW9kdWxlIDMg6Z2e5Li05bqK5oql5ZGK44CBTW9kdWxlIDQg5Li05bqK5oql5ZGK5ZKMIE1vZHVsZSA1IOWPguiAg+aWh+eMru+8jOWQhOaooeWdl+aMieaWh+aho+eykuW6puOAgeS7pSBYTUwg5qCR57uT5p6E5o+Q5Lqk44CCIiwNCiAgICAgICJrZXl3b3JkcyI6IFsNCiAgICAgICAgImVDVEQiLA0KICAgICAgICAi6I2v5ZOB5rOo5YaMIiwNCiAgICAgICAgIueUs+aKpSIsDQogICAgICAgICLmqKHlnZciLA0KICAgICAgICAiWE1MIiwNCiAgICAgICAgIkNURCINCiAgICAgIF0NCiAgICB9LA0KICAgIHsNCiAgICAgICJpZCI6ICJEMDgiLA0KICAgICAgInRpdGxlIjogIuWMu+eWl+WZqOaisOS4tOW6iuivhOS7t+aKgOacr+aMh+WvvOWOn+WImSIsDQogICAgICAidGV4dCI6ICLljLvnlpflmajmorDkuLTluoror4Tku7fpnIDln7rkuo7kuLTluoror5XpqozmlbDmja7jgIHkuLTluormlofnjK7mlbDmja7miJblkIznsbvkuqflk4HkuLTluormlbDmja7lvIDlsZXjgILkuLTluoror4Tku7fmiqXlkYrlupTor7TmmI7or4Tku7fmlrnms5XjgIHor4Tku7fov4fnqIvjgIHmoLfmnKzph4/kvp3mja7lkoznu5/orqHmlrnms5XvvIznoa7kv53nu5Porrrlj6/ov73muq/jgIHpo47pmanlj6/mjqXlj5fjgIIiLA0KICAgICAgImtleXdvcmRzIjogWw0KICAgICAgICAi5Yy755aX5Zmo5qKwIiwNCiAgICAgICAgIuS4tOW6iuivhOS7tyIsDQogICAgICAgICJOTVBBIiwNCiAgICAgICAgIuS4tOW6iuivlemqjCIsDQogICAgICAgICLlj6/ov73muq8iDQogICAgICBdDQogICAgfSwNCiAgICB7DQogICAgICAiaWQiOiAiRDA5IiwNCiAgICAgICJ0aXRsZSI6ICLnnJ/lrp7kuJbnlYznoJTnqbbvvIhSV1PvvInmlrnms5XlraYiLA0KICAgICAgInRleHQiOiAi55yf5a6e5LiW55WM56CU56m25L2/55So5bi46KeE5Yy755aX546v5aKD5LiL5Lqn55Sf55qE5pWw5o2u5byA5bGV56CU56m277yM5LiO5Lyg57uf6ZqP5py65a+554Wn6K+V6aqM5LqS6KGl6ICM6Z2e5pu/5Luj44CC5pWw5o2u5rqQ5YyF5ous55S15a2Q55eF5Y6G44CB5Yy75L+d57uT566X44CB5qOA6aqM5qOA5p+l5LiO5Y+v56m/5oi06K6+5aSH5pWw5o2u77yM6ZyA5aSE55CG5re35p2C5Zug57Sg44CB57y65aSx5YC85LiO5pWw5o2u5byC6LSo5oCn6Zeu6aKY44CCIiwNCiAgICAgICJrZXl3b3JkcyI6IFsNCiAgICAgICAgIuecn+WunuS4lueVjOeglOeptiIsDQogICAgICAgICJSV1MiLA0KICAgICAgICAi55S15a2Q55eF5Y6GIiwNCiAgICAgICAgIua3t+adguWboOe0oCIsDQogICAgICAgICLljLvkv53nu5PnrpciDQogICAgICBdDQogICAgfSwNCiAgICB7DQogICAgICAiaWQiOiAiRDEwIiwNCiAgICAgICJ0aXRsZSI6ICLoja/lk4Hor7TmmI7kuabmlofmnKzop6PmnpDop4TojIMiLA0KICAgICAgInRleHQiOiAi6I2v5ZOB6K+05piO5Lmm55Sx5qCH6aKY44CB6K2m56S66K+t44CB56aB5b+M44CB5LiN6Imv5Y+N5bqU44CB5rOo5oSP5LqL6aG544CB55So5rOV55So6YeP44CB5Yi25YmC6KeE5qC8562J5Zu65a6a56ug6IqC57uE5oiQ44CC5paH5pys6Kej5p6Q5bqU5L+d55WZ56ug6IqC5bGC57qn57uT5p6E77yM5a+56KGo5qC85Z6L5YaF5a656L2s5o2i5Li657uT5p6E5YyW6ZSu5YC85a+577yM5a+55Zu+54mH5Z6L6K+05piO5Lmm6ZyAIE9DUiDlm57pgIDlpITnkIbjgIIiLA0KICAgICAgImtleXdvcmRzIjogWw0KICAgICAgICAi6I2v5ZOB6K+05piO5LmmIiwNCiAgICAgICAgIuaWh+acrOino+aekCIsDQogICAgICAgICLnq6DoioIiLA0KICAgICAgICAi56aB5b+MIiwNCiAgICAgICAgIk9DUiINCiAgICAgIF0NCiAgICB9LA0KICAgIHsNCiAgICAgICJpZCI6ICJEMTEiLA0KICAgICAgInRpdGxlIjogIuekvuWMuuiOt+W+l+aAp+iCuueCjuiviueWl+aMh+WNlyIsDQogICAgICAidGV4dCI6ICLnpL7ljLrojrflvpfmgKfogrrngo7nmoTluLjop4Hoh7Tnl4Xoj4zljIXmi6zogrrngo7pk77nkIPoj4zjgIHmlK/ljp/kvZPjgIHlhpvlm6Loj4zlkoznl4Xmr5LmgKfnl4Xljp/kvZPjgILnu4/pqozmgKfmsrvnlpfluLjpgInnlKjlpKfnjq/lhoXpha/nsbvmiJblkbzlkLjllrnor7rpha7nsbvvvIzph43nl4fmgqPogIXlj6/ogIPomZHogZTlkIggYmV0YS3lhoXphbDog7rnsbvjgIIiLA0KICAgICAgImtleXdvcmRzIjogWw0KICAgICAgICAi56S+5Yy66I635b6X5oCn6IK654KOIiwNCiAgICAgICAgIkNBUCIsDQogICAgICAgICLogrrngo7pk77nkIPoj4wiLA0KICAgICAgICAi57uP6aqM5oCn5rK755aXIiwNCiAgICAgICAgIuWRvOWQuOWWueivuumFriINCiAgICAgIF0NCiAgICB9LA0KICAgIHsNCiAgICAgICJpZCI6ICJEMTIiLA0KICAgICAgInRpdGxlIjogIjLlnovns5blsL/nl4Xoja/nianmsrvnlpfot6/lvoQiLA0KICAgICAgInRleHQiOiAiMiDlnovns5blsL/nl4Xoja/nianmsrvnlpfmjInkuoznlLLlj4zog43kuLrkuIDnur/ln7rnoYDnlKjoja/vvIzooYDns5bmjqfliLbkuI3ovr7moIfml7blj6/ogZTlkIggR0xQLTEg5Y+X5L2T5r+A5Yqo5YmC5oiWIFNHTFQtMiDmipHliLbliYLvvJvlkIjlubblv4PooYDnrqHnlr7nl4XogIXkvJjlhYjpgInnlKjlhbfmnInlv4PooYDnrqHojrfnm4ror4Hmja7nmoToja/niannsbvliKvjgIIiLA0KICAgICAgImtleXdvcmRzIjogWw0KICAgICAgICAiMuWei+ezluWwv+eXhSIsDQogICAgICAgICLkuoznlLLlj4zog40iLA0KICAgICAgICAiU0dMVC0yIiwNCiAgICAgICAgIkdMUC0xIiwNCiAgICAgICAgIuS4gOe6v+eUqOiNryINCiAgICAgIF0NCiAgICB9LA0KICAgIHsNCiAgICAgICJpZCI6ICJEMTMiLA0KICAgICAgInRpdGxlIjogIuWMu+S/neWQiOeQhueUqOiNr+WuoeaguOinhOWImSIsDQogICAgICAidGV4dCI6ICLljLvkv53lkIjnkIbnlKjoja/lrqHmoLjpgJrov4fop4TliJnlvJXmk47lrp7njrDvvIzljIXlkKvpgILlupTnl4fpmZDlrprjgIHnu5noja/pgJTlvoTjgIHliYLph4/ojIPlm7TjgIHph43lpI3nlKjoja/jgIHnm7jkupLkvZznlKjnrYnop4TliJnjgILlrqHmoLjnu5PmnpzpnIDnu5nlh7rov53op4Tkvp3mja7mnaHmrL7vvIzmlK/mjIHnlLPor4nkuI7kurrlt6XlpI3moLjnjq/oioLjgIIiLA0KICAgICAgImtleXdvcmRzIjogWw0KICAgICAgICAi5Yy75L+dIiwNCiAgICAgICAgIuWQiOeQhueUqOiNryIsDQogICAgICAgICLlrqHmoLjop4TliJkiLA0KICAgICAgICAi6KeE5YiZ5byV5pOOIiwNCiAgICAgICAgIumAguW6lOeXhyIsDQogICAgICAgICLnlLPor4kiDQogICAgICBdDQogICAgfSwNCiAgICB7DQogICAgICAiaWQiOiAiRDE0IiwNCiAgICAgICJ0aXRsZSI6ICLoja/nianorabmiJLkuI3oia/lj43lupTkuIrmiqXopoHmsYIiLA0KICAgICAgInRleHQiOiAi6I2v5ZOB5LiK5biC6K645Y+v5oyB5pyJ5Lq65bqU5bu656uL6I2v54mp6K2m5oiS5L2T57O777yM5Li75Yqo55uR5rWL5bm25oql5ZGK5LiN6Imv5Y+N5bqU5Liq5L6L77yM5Liq5L6L55eF5L6L6ZyA5Zyo6KeE5a6a5pe26ZmQ5YaF5a6M5oiQ5LiK5oql77yM5Lil6YeN5LiN6Imv5LqL5Lu25bqU5LyY5YWI5aSE55CG5bm25L+d5a2Y5Y+v6L+95rqv55qE6K6w5b2V44CCIiwNCiAgICAgICJrZXl3b3JkcyI6IFsNCiAgICAgICAgIuiNr+eJqeitpuaIkiIsDQogICAgICAgICLkuI3oia/lj43lupQiLA0KICAgICAgICAi5LiK5biC6K645Y+v5oyB5pyJ5Lq6IiwNCiAgICAgICAgIuS4quS+i+eXheS+iyIsDQogICAgICAgICLkuIrmiqUiDQogICAgICBdDQogICAgfSwNCiAgICB7DQogICAgICAiaWQiOiAiRDE1IiwNCiAgICAgICJ0aXRsZSI6ICLljLvlrabmlofnjK7ns7vnu5/nu7zov7DmkrDlhpnop4TojIMiLA0KICAgICAgInRleHQiOiAi57O757uf57u86L+w6ZyA6aKE5YWI5Yi25a6a5qOA57Si562W55Wl77yM5qOA57SiIE1FRExJTkXjgIFFbWJhc2XjgIFDTktJIOetieaVsOaNruW6k++8jOmBteW+qiBQUklTTUEg5rWB56iL5Zu+6L+b6KGM562b6YCJ77yM6K+E5Lyw5YGP5YCa6aOO6Zmp77yM5bm255Sx5Lik5ZCN56CU56m26ICF54us56uL5a6M5oiQ5pWw5o2u5o+Q5Y+W5LiO5qC45a+544CCIiwNCiAgICAgICJrZXl3b3JkcyI6IFsNCiAgICAgICAgIuezu+e7n+e7vOi/sCIsDQogICAgICAgICJQUklTTUEiLA0KICAgICAgICAiTUVETElORSIsDQogICAgICAgICLmo4DntKLnrZbnlaUiLA0KICAgICAgICAi5YGP5YCaIg0KICAgICAgXQ0KICAgIH0sDQogICAgew0KICAgICAgImlkIjogIkQxNiIsDQogICAgICAidGl0bGUiOiAi5Lq65bel5pm66IO95Yy755aX5Zmo5qKw6L2v5Lu25a6h6K+E6KaB54K5IiwNCiAgICAgICJ0ZXh0IjogIkFJIOWMu+eWl+WZqOaisOi9r+S7tuWuoeivhOWFs+azqOeul+azleexu+Wei++8iOacuuWZqOWtpuS5oC/mt7HluqblrabkuaDvvInjgIHorq3nu4PmlbDmja7ku6PooajmgKfkuI7lj6/ov73muq/mgKfjgIHnrpfms5XmgKfog73mjIfmoIfnmoTnu5/orqHlrabor4Tku7fvvIzku6Xlj4rova/ku7bnlJ/lkb3lkajmnJ/nrqHnkIbkuI7mm7TmlrDmjqfliLbjgIIiLA0KICAgICAgImtleXdvcmRzIjogWw0KICAgICAgICAiQUnljLvnlpflmajmorAiLA0KICAgICAgICAi5a6h6K+EIiwNCiAgICAgICAgIueul+azlSIsDQogICAgICAgICLorq3nu4PmlbDmja4iLA0KICAgICAgICAi57uf6K6h5a2mIg0KICAgICAgXQ0KICAgIH0sDQogICAgew0KICAgICAgImlkIjogIkQxNyIsDQogICAgICAidGl0bGUiOiAi5Yy76Zmi5L+h5oGv57O757uf77yISElT77yJ6ZuG5oiQ6KeE6IyDIiwNCiAgICAgICJ0ZXh0IjogIuWMu+mZouS/oeaBr+ezu+e7n+mbhuaIkOmAmuW4uOmAmui/hyBITDcgdjIg5raI5oGv5oiWIEZISVIgUkVTVCDmjqXlj6PkuqTmjaLmlbDmja7vvIzmtonlj4rmgqPogIXkuLvntKLlvJXljLnphY3vvIhNUEnvvInjgIHnp5HlrqTkuI7kurrlkZjnvJbnoIHlr7npvZDjgIHmo4Dpqoznu5PmnpzkuI7ljLvlmLHnmoTmoIflh4bljJbmmKDlsITjgIIiLA0KICAgICAgImtleXdvcmRzIjogWw0KICAgICAgICAiSElTIiwNCiAgICAgICAgIkhMNyIsDQogICAgICAgICJGSElSIiwNCiAgICAgICAgIumbhuaIkCIsDQogICAgICAgICJNUEkiLA0KICAgICAgICAi5qCH5YeG5YyW5pig5bCEIg0KICAgICAgXQ0KICAgIH0sDQogICAgew0KICAgICAgImlkIjogIkQxOCIsDQogICAgICAidGl0bGUiOiAi6I2v5ZOB6L+95rqv56CB5LiO5rWB6YCa55uR566hIiwNCiAgICAgICJ0ZXh0IjogIuiNr+WTgeeUteWtkOebkeeuoeeggemAmui/h+WUr+S4gOagh+ivhuWunueOsOWNleS7tuiNr+WTgeS7jueUn+S6p+WIsOa1gemAmueahOWFqOmTvuadoei/vea6r++8jOebkeeuoeaWuemAmui/h+aJq+eggemHh+mbhua1geWQkeaVsOaNru+8jOeUqOS6juaJk+WHu+WBh+iNr+S4juinhOiMg+a1gemAmuenqeW6j+OAgiIsDQogICAgICAia2V5d29yZHMiOiBbDQogICAgICAgICLov73muq/noIEiLA0KICAgICAgICAi55S15a2Q55uR566h56CBIiwNCiAgICAgICAgIua1gemAmiIsDQogICAgICAgICLov73muq8iLA0KICAgICAgICAi5YGH6I2vIg0KICAgICAgXQ0KICAgIH0sDQogICAgew0KICAgICAgImlkIjogIkQxOSIsDQogICAgICAidGl0bGUiOiAiUEQtMSDkuI4gUEQtTDEg6Z2254K55beu5byC5py65Yi2IiwNCiAgICAgICJ0ZXh0IjogIlBELTEg5L2N5LqOIFQg57uG6IOe6KGo6Z2i77yMUEQtTDEg5Li76KaB6KGo6L6+5LqO6IK/55ik57uG6IOe5Y+K5oqX5Y6f5ZGI6YCS57uG6IOe44CCUEQtMSDkuI4gUEQtTDEg57uT5ZCI5oqR5Yi2IFQg57uG6IOe5rS75YyW77yM6ICM6Zi75patIFBELTEg5oiW6Zi75patIFBELUwxIOWdh+WPr+ino+mZpOivpeaKkeWItu+8jOS9huS4pOiAheWcqOeWl+aViOiwseS4juS4jeiJr+WPjeW6lOiwseS4iuWtmOWcqOW3ruW8guOAgiIsDQogICAgICAia2V5d29yZHMiOiBbDQogICAgICAgICJQRC0xIiwNCiAgICAgICAgIlBELUwxIiwNCiAgICAgICAgIumdtueCuSIsDQogICAgICAgICJU57uG6IOeIiwNCiAgICAgICAgIuacuuWItiINCiAgICAgIF0NCiAgICB9LA0KICAgIHsNCiAgICAgICJpZCI6ICJEMjAiLA0KICAgICAgInRpdGxlIjogIuWMu+S/neiNr+WTgeebruW9leiwg+aVtOa1geeoiyIsDQogICAgICAidGV4dCI6ICLlm73lrrbljLvkv53oja/lk4Hnm67lvZXpgJrov4fnlLPmiqXjgIHkuJPlrrbor4TlrqHjgIHosIjliKQv56ue5Lu344CB5YWs5biD5Zub5Liq6Zi25q6156Gu5a6a77yM6LCI5Yik6I2v5ZOB6ZyA562+572y5Y2P6K6u5bm257qm5a6a5pSv5LuY5qCH5YeG77yM5Y2P6K6u5pyf5YaF55uu5b2V5a6e6KGM5Yqo5oCB6LCD5pW044CCIiwNCiAgICAgICJrZXl3b3JkcyI6IFsNCiAgICAgICAgIuWMu+S/neebruW9lSIsDQogICAgICAgICLosIjliKQiLA0KICAgICAgICAi56ue5Lu3IiwNCiAgICAgICAgIuaUr+S7mOagh+WHhiIsDQogICAgICAgICLliqjmgIHosIPmlbQiDQogICAgICBdDQogICAgfSwNCiAgICB7DQogICAgICAiaWQiOiAiRDIxIiwNCiAgICAgICJ0aXRsZSI6ICLns5blsL/nl4Xop4bnvZHohpznl4Xlj5jnrZvmn6UiLA0KICAgICAgInRleHQiOiAi57OW5bC/55eF6KeG572R6Iac55eF5Y+Y562b5p+l5Lul55y85bqV54Wn55u45Zu+5YOP5Li65Z+656GA77yM5Yip55So5rex5bqm5a2m5Lmg5qih5Z6L6K+G5Yir5b6u5Yqo6ISJ55ik44CB5Ye66KGA54K544CB5riX5Ye6562J55eF54G25b6B6LGh77yM6L6F5Yqp55y856eR5Yy755Sf5a6M5oiQ5YiG57qn6K+K5pat44CCIiwNCiAgICAgICJrZXl3b3JkcyI6IFsNCiAgICAgICAgIuezluWwv+eXheinhue9keiGnOeXheWPmCIsDQogICAgICAgICLnnLzlupXnhafnm7giLA0KICAgICAgICAi5rex5bqm5a2m5LmgIiwNCiAgICAgICAgIuW+ruWKqOiEieeYpCIsDQogICAgICAgICLliIbnuqciDQogICAgICBdDQogICAgfSwNCiAgICB7DQogICAgICAiaWQiOiAiRDIyIiwNCiAgICAgICJ0aXRsZSI6ICLnvZXop4Hnl4Xor4rmlq3nvJbnoIHkuI7nmbvorrAiLA0KICAgICAgInRleHQiOiAi572V6KeB55eF5L2/55SoIE9SUEhBIOe8lueggeS9k+ezu+eZu+iusO+8jOaCo+iAheaVsOaNruWIhuaVo+WcqOWkmuS4reW/g++8jOmcgOmAmui/h+e7n+S4gOaVsOaNruWtl+WFuOS4juS4reW/g+WMluazqOWGjOW5s+WPsOaxh+iBmu+8jOeZu+iusOeglOeptumhu+a7oei2s+efpeaDheWQjOaEj+S4juS8pueQhuWuoeafpeimgeaxguOAgiIsDQogICAgICAia2V5d29yZHMiOiBbDQogICAgICAgICLnvZXop4Hnl4UiLA0KICAgICAgICAiT1JQSEEiLA0KICAgICAgICAi57yW56CBIiwNCiAgICAgICAgIueZu+iusOW5s+WPsCIsDQogICAgICAgICLkvKbnkIblrqHmn6UiDQogICAgICBdDQogICAgfSwNCiAgICB7DQogICAgICAiaWQiOiAiRDIzIiwNCiAgICAgICJ0aXRsZSI6ICLkuLTluoror5XpqozmlbDmja7nrqHnkIbkuI7moLjmn6UiLA0KICAgICAgInRleHQiOiAi5Li05bqK6K+V6aqM5pWw5o2u566h55CG6YG15b6qIEFMQ09BKyDljp/liJnvvIzopoHmsYLmlbDmja7lj6/lvZLlsZ7jgIHmuIXmmbDjgIHlkIzmraXjgIHljp/lp4vjgIHlh4bnoa7vvIzopoHmsYLlhbflpIflrqHorqHovajov7nvvIzkuJTlhbPplK7mlbDmja7nmoTkv67mlLnpnIDkv53nlZnkv67mlLnkurrjgIHml7bpl7Tlkozljp/lm6DjgIIiLA0KICAgICAgImtleXdvcmRzIjogWw0KICAgICAgICAi5Li05bqK6K+V6aqMIiwNCiAgICAgICAgIkFMQ09BIiwNCiAgICAgICAgIuaVsOaNrueuoeeQhiIsDQogICAgICAgICLlrqHorqHovajov7kiLA0KICAgICAgICAiRURDIg0KICAgICAgXQ0KICAgIH0sDQogICAgew0KICAgICAgImlkIjogIkQyNCIsDQogICAgICAidGl0bGUiOiAi6I2v5ZOBIEdNUCDkuI7mlbDmja7lrozmlbTmgKciLA0KICAgICAgInRleHQiOiAi6I2v5ZOB55Sf5Lqn6LSo6YeP566h55CG6KeE6IyD6KaB5rGC5pWw5o2u5YW35pyJ5Y+v6Z2g5oCn5LiO5Y+v6L+95rqv5oCn77yM55S15a2Q6K6w5b2V6aG75Y+X5o6n44CB5Y+v5aSH5Lu95bm25YW35aSH5a6h6K6h6L+96Liq77yM6Z2Z5oCB5pWw5o2u5LiO5Yqo5oCB5pWw5o2u55qE5a2Y5YKo5pyf6ZmQ5bqU5LqI5piO56Gu6KeE5a6a44CCIiwNCiAgICAgICJrZXl3b3JkcyI6IFsNCiAgICAgICAgIkdNUCIsDQogICAgICAgICLmlbDmja7lrozmlbTmgKciLA0KICAgICAgICAi5a6h6K6h6L+96LiqIiwNCiAgICAgICAgIueUteWtkOiusOW9lSIsDQogICAgICAgICLlj5fmjqciDQogICAgICBdDQogICAgfSwNCiAgICB7DQogICAgICAiaWQiOiAiRDI1IiwNCiAgICAgICJ0aXRsZSI6ICLljLvlrablvbHlg4/lvZLmoaPkuI7miqXlkYrns7vnu58iLA0KICAgICAgInRleHQiOiAiUEFDUyDns7vnu5/otJ/otKMgRElDT00g5b2x5YOP55qE5a2Y5YKo5LiO6LCD6ZiF77yM5oql5ZGK57O757uf5om/6L295pS+5bCE56eR57uT5p6E5YyW5oql5ZGK77yMQUkg6L6F5Yqp5qOA5Ye657uT5p6c6ZyA5LiO5b2x5YOP5YWz6IGU5bm25Zyo5oql5ZGK5Lit57uZ5Ye65a6a5L2N5qCH5rOo5LiO572u5L+h5bqm44CCIiwNCiAgICAgICJrZXl3b3JkcyI6IFsNCiAgICAgICAgIlBBQ1MiLA0KICAgICAgICAiRElDT00iLA0KICAgICAgICAi5b2x5YOPIiwNCiAgICAgICAgIuaKpeWRiiIsDQogICAgICAgICJBSeajgOWHuiINCiAgICAgIF0NCiAgICB9DQogIF0sDQogICJxdWVyaWVzIjogWw0KICAgIHsNCiAgICAgICJxIjogIue0ouejt+W4g+mfpiIsDQogICAgICAiZ29sZCI6ICJEMDEiLA0KICAgICAgInR5cGUiOiAidGVybWlub2xvZ3kiLA0KICAgICAgIm5vdGUiOiAi6I2v5ZCN57K+56Gu5Yy56YWNIg0KICAgIH0sDQogICAgew0KICAgICAgInEiOiAi5Y2h55Ge5Yip54+g5Y2V5oqX5rOo5bCE5rayIiwNCiAgICAgICJnb2xkIjogIkQwMiIsDQogICAgICAidHlwZSI6ICJ0ZXJtaW5vbG9neSIsDQogICAgICAibm90ZSI6ICLoja/lkI3nsr7noa7ljLnphY0iDQogICAgfSwNCiAgICB7DQogICAgICAicSI6ICLmm7/pm7flkInogr3ms6jlsITmtrIiLA0KICAgICAgImdvbGQiOiAiRDA0IiwNCiAgICAgICJ0eXBlIjogInRlcm1pbm9sb2d5IiwNCiAgICAgICJub3RlIjogIuiNr+WQjeeyvuehruWMuemFjSINCiAgICB9LA0KICAgIHsNCiAgICAgICJxIjogImVDVEQiLA0KICAgICAgImdvbGQiOiAiRDA3IiwNCiAgICAgICJ0eXBlIjogInRlcm1pbm9sb2d5IiwNCiAgICAgICJub3RlIjogIue8qeWGmeeyvuehruWMuemFjSINCiAgICB9LA0KICAgIHsNCiAgICAgICJxIjogIkFMQ09BIiwNCiAgICAgICJnb2xkIjogIkQyMyIsDQogICAgICAidHlwZSI6ICJ0ZXJtaW5vbG9neSIsDQogICAgICAibm90ZSI6ICLoi7HmlofmnK/or63nsr7noa7ljLnphY0iDQogICAgfSwNCiAgICB7DQogICAgICAicSI6ICJHQ1AiLA0KICAgICAgImdvbGQiOiAiRDA2IiwNCiAgICAgICJ0eXBlIjogInRlcm1pbm9sb2d5IiwNCiAgICAgICJub3RlIjogIue8qeWGmeeyvuehruWMuemFjSINCiAgICB9LA0KICAgIHsNCiAgICAgICJxIjogIlBELTEiLA0KICAgICAgImdvbGQiOiBbDQogICAgICAgICJEMDIiLA0KICAgICAgICAiRDE5Ig0KICAgICAgXSwNCiAgICAgICJ0eXBlIjogInRyYXAiLA0KICAgICAgIm5vdGUiOiAi5pyv6K+t6Zm36Zix77ya5LiN6IO95Y+q5ZG95LitIFBELUwxIOeahCBEMDMiDQogICAgfSwNCiAgICB7DQogICAgICAicSI6ICJQRC1MMSIsDQogICAgICAiZ29sZCI6IFsNCiAgICAgICAgIkQwMyIsDQogICAgICAgICJEMTkiDQogICAgICBdLA0KICAgICAgInR5cGUiOiAidHJhcCIsDQogICAgICAibm90ZSI6ICLmnK/or63pmbfpmLHvvJrkuI3og73lj6rlkb3kuK0gUEQtMSDnmoQgRDAyIg0KICAgIH0sDQogICAgew0KICAgICAgInEiOiAi5oCO5LmI5oqK6KGA57OW6ZmN5LiL5p2lIiwNCiAgICAgICJnb2xkIjogWw0KICAgICAgICAiRDEyIiwNCiAgICAgICAgIkQwNCINCiAgICAgIF0sDQogICAgICAidHlwZSI6ICJzZW1hbnRpYyIsDQogICAgICAibm90ZSI6ICLlj6Por63ljJbmj4/ov7DvvIzml6DlhbPplK7or40iDQogICAgfSwNCiAgICB7DQogICAgICAicSI6ICLnl4XkurrmgLvmmK/llpjkuI3ov4fmsJTmgI7kuYjlip4iLA0KICAgICAgImdvbGQiOiAiRDExIiwNCiAgICAgICJ0eXBlIjogInNlbWFudGljIiwNCiAgICAgICJub3RlIjogIueXh+eKtuaPj+i/sCINCiAgICB9LA0KICAgIHsNCiAgICAgICJxIjogIuiNr+WQg+S6huS7peWQjuimgeazqOaEj+S7gOS5iCIsDQogICAgICAiZ29sZCI6IFsNCiAgICAgICAgIkQxMCIsDQogICAgICAgICJEMTMiDQogICAgICBdLA0KICAgICAgInR5cGUiOiAic2VtYW50aWMiLA0KICAgICAgIm5vdGUiOiAi5rOb5YyW5o+P6L+wIg0KICAgIH0sDQogICAgew0KICAgICAgInEiOiAi5Yy76Zmi57O757uf5oCO5LmI5a+55o6l5aSW6YOo5pWw5o2uIiwNCiAgICAgICJnb2xkIjogIkQxNyIsDQogICAgICAidHlwZSI6ICJzZW1hbnRpYyIsDQogICAgICAibm90ZSI6ICLmioDmnK/mj4/ov7DmjaLor7Tms5UiDQogICAgfSwNCiAgICB7DQogICAgICAicSI6ICLljLvkv53mgI7kuYjmjqfliLbljZXnl4Xnp43oirHotLkiLA0KICAgICAgImdvbGQiOiBbDQogICAgICAgICJEMDUiLA0KICAgICAgICAiRDEzIg0KICAgICAgXSwNCiAgICAgICJ0eXBlIjogInNlbWFudGljIiwNCiAgICAgICJub3RlIjogIuWMu+S/neaOp+i0ueeahOiHqueEtuivreiogOihqOi/sCINCiAgICB9LA0KICAgIHsNCiAgICAgICJxIjogIuehruiupOaWsOiNr+S4iuW4gueUs+ivt+imgeWHhuWkh+WTquS6m+aWh+S7tiIsDQogICAgICAiZ29sZCI6IFsNCiAgICAgICAgIkQwNyIsDQogICAgICAgICJEMDgiDQogICAgICBdLA0KICAgICAgInR5cGUiOiAic2VtYW50aWMiLA0KICAgICAgIm5vdGUiOiAi5ZCI6KeE6Zeu5Y+lIg0KICAgIH0NCiAgXQ0KfQ==
+{
+  "_note": "医疗 RAG 检索对比语料。每条 doc 有 id/title/text/keywords。queries 里每条标注了 gold（期望命中的 doc id）与类型（terminology=术语类 / semantic=描述类 / trap=术语陷阱）。",
+  "docs": [
+    {
+      "id": "D01",
+      "title": "索磷布韦片说明书",
+      "text": "索磷布韦片是丙型肝炎病毒（HCV）NS5A/NS5B 联合抑制剂，用于慢性丙型肝炎的抗病毒治疗。推荐方案为索磷布韦联合其他抗病毒药物口服给药，疗程通常为 12 周。常见不良反应包括乏力、恶心和头痛。",
+      "keywords": [
+        "索磷布韦",
+        "丙型肝炎",
+        "HCV",
+        "NS5A",
+        "抗病毒"
+      ]
+    },
+    {
+      "id": "D02",
+      "title": "卡瑞利珠单抗注射液（PD-1 抑制剂）",
+      "text": "卡瑞利珠单抗注射液是一种人源化 IgG4 单克隆抗体，通过阻断程序性死亡受体 1（PD-1）与配体 PD-L1/PD-L2 的结合，解除 T 细胞免疫抑制状态，用于多种实体瘤的免疫治疗。",
+      "keywords": [
+        "卡瑞利珠单抗",
+        "PD-1",
+        "PD-L1",
+        "免疫检查点抑制剂",
+        "单抗"
+      ]
+    },
+    {
+      "id": "D03",
+      "title": "帕博利珠单抗（PD-L1 抑制剂）",
+      "text": "帕博利珠单抗是针对程序性死亡配体 1（PD-L1）的人源化单克隆抗体，通过阻断 PD-L1 与 PD-1 的结合发挥抗肿瘤作用。其适应症覆盖非小细胞肺癌、黑色素瘤等多种肿瘤，常与化疗联用。",
+      "keywords": [
+        "帕博利珠单抗",
+        "PD-L1",
+        "PD-1",
+        "免疫治疗",
+        "非小细胞肺癌"
+      ]
+    },
+    {
+      "id": "D04",
+      "title": "替雷吉肽注射液（GLP-1 受体激动剂）",
+      "text": "替雷吉肽注射液是胰高血糖素样肽-1（GLP-1）受体激动剂，通过葡萄糖依赖性机制促进胰岛素分泌、抑制胰高血糖素释放，用于 2 型糖尿病的血糖控制并具备减重获益。",
+      "keywords": [
+        "替雷吉肽",
+        "GLP-1",
+        "2型糖尿病",
+        "降糖",
+        "减重"
+      ]
+    },
+    {
+      "id": "D05",
+      "title": "医保 DRG/DIP 支付方式改革说明",
+      "text": "DRG（疾病诊断相关分组）按疾病组权重付费，DIP（按病种分值付费）按病种分值付费。两种支付方式均以住院病案首页的诊断编码与手术操作编码为主要分组依据，医疗机构需据此控制单病组成本。",
+      "keywords": [
+        "DRG",
+        "DIP",
+        "医保",
+        "病案首页",
+        "编码",
+        "按病种付费"
+      ]
+    },
+    {
+      "id": "D06",
+      "title": "GCP 药物临床试验质量管理规范",
+      "text": "GCP（Good Clinical Practice，药物临床试验质量管理规范）规定了临床试验的设计、组织、实施、记录、分析与报告全过程的质量要求，核心原则是保护受试者权益与确保试验结果的科学性和可靠性。",
+      "keywords": [
+        "GCP",
+        "临床试验",
+        "受试者",
+        "质量规范",
+        "知情同意"
+      ]
+    },
+    {
+      "id": "D07",
+      "title": "eCTD 药品注册申报文件结构",
+      "text": "eCTD（Electronic Common Technical Document，电子通用技术文档）将药品注册申报资料按区域模块组织，涵盖 Module 1 行政与法规信息、Module 2 概述与质量、Module 3 非临床报告、Module 4 临床报告和 Module 5 参考文献，各模块按文档粒度、以 XML 树结构提交。",
+      "keywords": [
+        "eCTD",
+        "药品注册",
+        "申报",
+        "模块",
+        "XML",
+        "CTD"
+      ]
+    },
+    {
+      "id": "D08",
+      "title": "医疗器械临床评价技术指导原则",
+      "text": "医疗器械临床评价需基于临床试验数据、临床文献数据或同类产品临床数据开展。临床评价报告应说明评价方法、评价过程、样本量依据和统计方法，确保结论可追溯、风险可接受。",
+      "keywords": [
+        "医疗器械",
+        "临床评价",
+        "NMPA",
+        "临床试验",
+        "可追溯"
+      ]
+    },
+    {
+      "id": "D09",
+      "title": "真实世界研究（RWS）方法学",
+      "text": "真实世界研究使用常规医疗环境下产生的数据开展研究，与传统随机对照试验互补而非替代。数据源包括电子病历、医保结算、检验检查与可穿戴设备数据，需处理混杂因素、缺失值与数据异质性问题。",
+      "keywords": [
+        "真实世界研究",
+        "RWS",
+        "电子病历",
+        "混杂因素",
+        "医保结算"
+      ]
+    },
+    {
+      "id": "D10",
+      "title": "药品说明书文本解析规范",
+      "text": "药品说明书由标题、警示语、禁忌、不良反应、注意事项、用法用量、制剂规格等固定章节组成。文本解析应保留章节层级结构，对表格型内容转换为结构化键值对，对图片型说明书需 OCR 回退处理。",
+      "keywords": [
+        "药品说明书",
+        "文本解析",
+        "章节",
+        "禁忌",
+        "OCR"
+      ]
+    },
+    {
+      "id": "D11",
+      "title": "社区获得性肺炎诊疗指南",
+      "text": "社区获得性肺炎的常见致病菌包括肺炎链球菌、支原体、军团菌和病毒性病原体。经验性治疗常选用大环内酯类或呼吸喹诺酮类，重症患者可考虑联合 beta-内酰胺类。",
+      "keywords": [
+        "社区获得性肺炎",
+        "CAP",
+        "肺炎链球菌",
+        "经验性治疗",
+        "呼吸喹诺酮"
+      ]
+    },
+    {
+      "id": "D12",
+      "title": "2型糖尿病药物治疗路径",
+      "text": "2 型糖尿病药物治疗按二甲双胍为一线基础用药，血糖控制不达标时可联合 GLP-1 受体激动剂或 SGLT-2 抑制剂；合并心血管疾病者优先选用具有心血管获益证据的药物类别。",
+      "keywords": [
+        "2型糖尿病",
+        "二甲双胍",
+        "SGLT-2",
+        "GLP-1",
+        "一线用药"
+      ]
+    },
+    {
+      "id": "D13",
+      "title": "医保合理用药审核规则",
+      "text": "医保合理用药审核通过规则引擎实现，包含适应症限定、给药途径、剂量范围、重复用药、相互作用等规则。审核结果需给出违规依据条款，支持申诉与人工复核环节。",
+      "keywords": [
+        "医保",
+        "合理用药",
+        "审核规则",
+        "规则引擎",
+        "适应症",
+        "申诉"
+      ]
+    },
+    {
+      "id": "D14",
+      "title": "药物警戒不良反应上报要求",
+      "text": "药品上市许可持有人应建立药物警戒体系，主动监测并报告不良反应个例，个例病例需在规定时限内完成上报，严重不良事件应优先处理并保存可追溯的记录。",
+      "keywords": [
+        "药物警戒",
+        "不良反应",
+        "上市许可持有人",
+        "个例病例",
+        "上报"
+      ]
+    },
+    {
+      "id": "D15",
+      "title": "医学文献系统综述撰写规范",
+      "text": "系统综述需预先制定检索策略，检索 MEDLINE、Embase、CNKI 等数据库，遵循 PRISMA 流程图进行筛选，评估偏倚风险，并由两名研究者独立完成数据提取与核对。",
+      "keywords": [
+        "系统综述",
+        "PRISMA",
+        "MEDLINE",
+        "检索策略",
+        "偏倚"
+      ]
+    },
+    {
+      "id": "D16",
+      "title": "人工智能医疗器械软件审评要点",
+      "text": "AI 医疗器械软件审评关注算法类型（机器学习/深度学习）、训练数据代表性与可追溯性、算法性能指标的统计学评价，以及软件生命周期管理与更新控制。",
+      "keywords": [
+        "AI医疗器械",
+        "审评",
+        "算法",
+        "训练数据",
+        "统计学"
+      ]
+    },
+    {
+      "id": "D17",
+      "title": "医院信息系统（HIS）集成规范",
+      "text": "医院信息系统集成通常通过 HL7 v2 消息或 FHIR REST 接口交换数据，涉及患者主索引匹配（MPI）、科室与人员编码对齐、检验结果与医嘱的标准化映射。",
+      "keywords": [
+        "HIS",
+        "HL7",
+        "FHIR",
+        "集成",
+        "MPI",
+        "标准化映射"
+      ]
+    },
+    {
+      "id": "D18",
+      "title": "药品追溯码与流通监管",
+      "text": "药品电子监管码通过唯一标识实现单件药品从生产到流通的全链条追溯，监管方通过扫码采集流向数据，用于打击假药与规范流通秩序。",
+      "keywords": [
+        "追溯码",
+        "电子监管码",
+        "流通",
+        "追溯",
+        "假药"
+      ]
+    },
+    {
+      "id": "D19",
+      "title": "PD-1 与 PD-L1 靶点差异机制",
+      "text": "PD-1 位于 T 细胞表面，PD-L1 主要表达于肿瘤细胞及抗原呈递细胞。PD-1 与 PD-L1 结合抑制 T 细胞活化，而阻断 PD-1 或阻断 PD-L1 均可解除该抑制，但两者在疗效谱与不良反应谱上存在差异。",
+      "keywords": [
+        "PD-1",
+        "PD-L1",
+        "靶点",
+        "T细胞",
+        "机制"
+      ]
+    },
+    {
+      "id": "D20",
+      "title": "医保药品目录调整流程",
+      "text": "国家医保药品目录通过申报、专家评审、谈判/竞价、公布四个阶段确定，谈判药品需签署协议并约定支付标准，协议期内目录实行动态调整。",
+      "keywords": [
+        "医保目录",
+        "谈判",
+        "竞价",
+        "支付标准",
+        "动态调整"
+      ]
+    },
+    {
+      "id": "D21",
+      "title": "糖尿病视网膜病变筛查",
+      "text": "糖尿病视网膜病变筛查以眼底照相图像为基础，利用深度学习模型识别微动脉瘤、出血点、渗出等病灶征象，辅助眼科医生完成分级诊断。",
+      "keywords": [
+        "糖尿病视网膜病变",
+        "眼底照相",
+        "深度学习",
+        "微动脉瘤",
+        "分级"
+      ]
+    },
+    {
+      "id": "D22",
+      "title": "罕见病诊断编码与登记",
+      "text": "罕见病使用 ORPHA 编码体系登记，患者数据分散在多中心，需通过统一数据字典与中心化注册平台汇聚，登记研究须满足知情同意与伦理审查要求。",
+      "keywords": [
+        "罕见病",
+        "ORPHA",
+        "编码",
+        "登记平台",
+        "伦理审查"
+      ]
+    },
+    {
+      "id": "D23",
+      "title": "临床试验数据管理与核查",
+      "text": "临床试验数据管理遵循 ALCOA+ 原则，要求数据可归属、清晰、同步、原始、准确，要求具备审计轨迹，且关键数据的修改需保留修改人、时间和原因。",
+      "keywords": [
+        "临床试验",
+        "ALCOA",
+        "数据管理",
+        "审计轨迹",
+        "EDC"
+      ]
+    },
+    {
+      "id": "D24",
+      "title": "药品 GMP 与数据完整性",
+      "text": "药品生产质量管理规范要求数据具有可靠性与可追溯性，电子记录须受控、可备份并具备审计追踪，静态数据与动态数据的存储期限应予明确规定。",
+      "keywords": [
+        "GMP",
+        "数据完整性",
+        "审计追踪",
+        "电子记录",
+        "受控"
+      ]
+    },
+    {
+      "id": "D25",
+      "title": "医学影像归档与报告系统",
+      "text": "PACS 系统负责 DICOM 影像的存储与调阅，报告系统承载放射科结构化报告，AI 辅助检出结果需与影像关联并在报告中给出定位标注与置信度。",
+      "keywords": [
+        "PACS",
+        "DICOM",
+        "影像",
+        "报告",
+        "AI检出"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "q": "索磷布韦",
+      "gold": "D01",
+      "type": "terminology",
+      "note": "药名精确匹配"
+    },
+    {
+      "q": "卡瑞利珠单抗注射液",
+      "gold": "D02",
+      "type": "terminology",
+      "note": "药名精确匹配"
+    },
+    {
+      "q": "替雷吉肽注射液",
+      "gold": "D04",
+      "type": "terminology",
+      "note": "药名精确匹配"
+    },
+    {
+      "q": "eCTD",
+      "gold": "D07",
+      "type": "terminology",
+      "note": "缩写精确匹配"
+    },
+    {
+      "q": "ALCOA",
+      "gold": "D23",
+      "type": "terminology",
+      "note": "英文术语精确匹配"
+    },
+    {
+      "q": "GCP",
+      "gold": "D06",
+      "type": "terminology",
+      "note": "缩写精确匹配"
+    },
+    {
+      "q": "PD-1",
+      "gold": [
+        "D02",
+        "D19"
+      ],
+      "type": "trap",
+      "note": "术语陷阱：不能只命中 PD-L1 的 D03"
+    },
+    {
+      "q": "PD-L1",
+      "gold": [
+        "D03",
+        "D19"
+      ],
+      "type": "trap",
+      "note": "术语陷阱：不能只命中 PD-1 的 D02"
+    },
+    {
+      "q": "怎么把血糖降下来",
+      "gold": [
+        "D12",
+        "D04"
+      ],
+      "type": "semantic",
+      "note": "口语化描述，无关键词"
+    },
+    {
+      "q": "病人总是喘不过气怎么办",
+      "gold": "D11",
+      "type": "semantic",
+      "note": "症状描述"
+    },
+    {
+      "q": "药吃了以后要注意什么",
+      "gold": [
+        "D10",
+        "D13"
+      ],
+      "type": "semantic",
+      "note": "泛化描述"
+    },
+    {
+      "q": "医院系统怎么对接外部数据",
+      "gold": "D17",
+      "type": "semantic",
+      "note": "技术描述换说法"
+    },
+    {
+      "q": "医保怎么控制单病种花费",
+      "gold": [
+        "D05",
+        "D13"
+      ],
+      "type": "semantic",
+      "note": "医保控费的自然语言表述"
+    },
+    {
+      "q": "确认新药上市申请要准备哪些文件",
+      "gold": [
+        "D07",
+        "D08"
+      ],
+      "type": "semantic",
+      "note": "合规问句"
+    }
+  ]
+}

@@ -1,1 +1,36 @@
-c2VydmljZXM6CiAgZXM6CiAgICBpbWFnZTogZG9ja2VyLmVsYXN0aWMuY28vZWxhc3RpY3NlYXJjaC9lbGFzdGljc2VhcmNoOjguMTMuNAogICAgY29udGFpbmVyX25hbWU6IGVzLWh5YnJpZC1kZW1vCiAgICBlbnZpcm9ubWVudDoKICAgICAgLSBkaXNjb3ZlcnkudHlwZT1zaW5nbGUtbm9kZQogICAgICAtIHhwYWNrLnNlY3VyaXR5LmVuYWJsZWQ9ZmFsc2UKICAgICAgLSAiRVNfSkFWQV9PUFRTPS1YbXMxZyAtWG14MWciCiAgICAgIC0gImJvb3RzdHJhcC5tZW1vcnlfbG9jaz10cnVlIgogICAgdWxpbWl0czoKICAgICAgbWVtbG9jazoKICAgICAgICBzb2Z0OiAtMQogICAgICAgIGhhcmQ6IC0xCiAgICBwb3J0czoKICAgICAgLSAiOTIwMDo5MjAwIgogICAgbmV0d29ya3M6CiAgICAgIC0gZXNuZXQKCiAga2liYW5hOgogICAgaW1hZ2U6IGRvY2tlci5lbGFzdGljLmNvL2tpYmFuYS9raWJhbmE6OC4xMy40CiAgICBjb250YWluZXJfbmFtZToga2liYW5hLWh5YnJpZC1kZW1vCiAgICBlbnZpcm9ubWVudDoKICAgICAgLSBFTEFTVElDU0VBUkNIX0hPU1RTPWh0dHA6Ly9lczo5MjAwCiAgICAgIC0gSTE4Tl9MT0NBTEU9emgtQ04KICAgIHBvcnRzOgogICAgICAtICI1NjAxOjU2MDEiCiAgICBkZXBlbmRzX29uOgogICAgICAtIGVzCiAgICBuZXR3b3JrczoKICAgICAgLSBlc25ldAogICAgcHJvZmlsZXM6CiAgICAgIC0ga2IKCm5ldHdvcmtzOgogIGVzbmV0OgogICAgZHJpdmVyOiBicmlkZ2U=
+services:
+  es:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+    container_name: es-hybrid-demo
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms1g -Xmx1g"
+      - "bootstrap.memory_lock=true"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - "9200:9200"
+    networks:
+      - esnet
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.13.4
+    container_name: kibana-hybrid-demo
+    environment:
+      - ELASTICSEARCH_HOSTS=http://es:9200
+      - I18N_LOCALE=zh-CN
+    ports:
+      - "5601:5601"
+    depends_on:
+      - es
+    networks:
+      - esnet
+    profiles:
+      - kb
+
+networks:
+  esnet:
+    driver: bridge
